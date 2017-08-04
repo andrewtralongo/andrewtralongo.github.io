@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>level2</title>
+
+    <style media="screen">
+
+      .background-container {
+        height: 750px;
+        width: 500px;
+        margin: auto;
+        position: relative;
+      }
+      .background-l {
+        height: 750px;
+        width: 250px;
+        background: #ce1414;
+        position: absolute;
+      }
+      .background-r {
+        height: 750px;
+        width: 250px;
+        background: #d81515;
+        position: absolute;
+        margin-left: 250px;
+      }
+      .header-container {
+        width: 400px;
+        padding-top: 75px;
+        margin: auto;
+        position: relative;
+      }
+      .text {
+        position: relative;
+        margin-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #d81515;
+        font-size: 1.75em;
+      }
+      .circle-container {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        animation: rotate 10s infinite linear;
+      }
+      .circle-top {
+        height: 125px;
+        width: 250px;
+        margin: auto;
+        position: relative;
+        border-top-left-radius: 250px;
+        border-top-right-radius: 250px;
+        animation: colorchangeTop 5s infinite alternate;
+      }
+      .circle-bottom {
+        background: grey;
+        height: 125px;
+        width: 250px;
+        margin: auto;
+        position: relative;
+        border-bottom-left-radius: 250px;
+        border-bottom-right-radius: 250px;
+        animation: colorchangeBottom 5s infinite alternate;
+      }
+      .footer-container {
+        height: 75px;
+        width: 450px;
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-top: 75px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.75em;
+      }
+      .footer-text1 {
+        height: 75px;
+        width: 100px;
+        position: relative;
+        float: left;
+        margin-right: 50px;
+        animation: text1 4s infinite;
+        opacity: 0;
+      }
+      .footer-text2 {
+        height: 75px;
+        width: 100px;
+        position: relative;
+        float: left;
+        margin-right: 50px;
+        animation: text2 4s infinite;
+        opacity: 0;
+      }
+      .footer-text3 {
+        height: 75px;
+        width: 100px;
+        position: relative;
+        float: left;
+        margin-right: 50px;
+        animation: text3 4s infinite;
+        opacity: 0;
+      }
+
+      @keyframes colorchangeTop {
+        from { background: #4baa63 }
+        to { background: #50ba6c }
+      }
+      @keyframes colorchangeBottom {
+        from { background: #50ba6c }
+        to { background: #4baa63 }
+      }
+      @keyframes rotate {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+      }
+      @keyframes text1 {
+        20% {opacity: 0;}
+        25% {opacity: 1;}
+        95% {opacity: 1;}
+      }
+      @keyframes text2 {
+        45% {opacity: 0;}
+        50% {opacity: 1;}
+        95% {opacity: 1;}
+      }
+      @keyframes text3 {
+        70% {opacity: 0;}
+        75% {opacity: 1;}
+        95% {opacity: 1;}
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- MANIFESTO: UNTITLED - Kesselskramer. Life is too short to spend it with assholes.-->
+      <div class="background-container">
+        <div class="background-l"></div>
+        <div class="background-r"></div>
+
+        <div class="header-container">
+
+          <div class="text">
+            <p><b>UNTITLED</b></p>
+          </div>
+
+          <div class="circle-container rotate">
+            <div class="circle-top colorchangeTop"></div>
+            <div class="circle-bottom colorchangeBottom"></div>
+          </div>
+
+          <div class="text">
+            <p><b>kesselskramer.</b></p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <div class="footer-text1 text1">
+            <p> &#9779; <br> <i>Life is too short</i></p>
+          </div>
+          <div class="footer-text2 text2">
+            <p> &#9781; <br> <i>to spend it</i></p>
+          </div>
+          <div class="footer-text3 text3">
+            <p> &#9782; <br> <i>with assholes.</i></p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+  </body>
+
+</html>
