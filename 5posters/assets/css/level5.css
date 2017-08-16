@@ -401,19 +401,22 @@
     height: 125px;
     width: 100%;
     margin-top: 25px;
+    padding: 50px;
     position: relative;
     justify-content: left;
     background: linear-gradient( rgba(255,255,255,0), peachpuff);
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    color: #3e5d9b;
 }
 
 .footer-logo{
     height: 100%;
     margin-right: 50px;
+}
+
+.footer-txt {
+    height: 100%;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #3e5d9b;
+    display: inline-block;
 }
 
 
