@@ -359,7 +359,8 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     width: 100%;
     margin-top: 25px;
     padding: 50px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     justify-content: left;
     background: linear-gradient( rgba(255,255,255,0), peachpuff);
 }
