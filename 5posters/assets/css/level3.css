@@ -255,7 +255,7 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     border-color: white;
 }
 
-.navp3-boxHov {
+.navp3-container:hover div {
     background: rgba(14,100,211,0.15);
     border-color: white;
 }

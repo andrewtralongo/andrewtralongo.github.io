@@ -298,7 +298,7 @@
     border-color: white;
 }
 
-.navp3-boxHov {
+.navp3-container:hover div {
     background: rgba(14,100,211,0.15);
     border-color: white;
 }

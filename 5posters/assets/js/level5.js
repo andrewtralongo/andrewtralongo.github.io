@@ -14,12 +14,6 @@ $(document).ready(function() {
         $('.navp2-circleR').toggleClass('navp2-circleRHov');
     });
     
-    $('.navp3-container').hover(function(){
-        $('.navp3-box2').toggleClass('navp3-boxHov');
-        $('.navp3-box3').toggleClass('navp3-boxHov');
-        $('.navp3-box4').toggleClass('navp3-boxHov');
-    });
-    
     $('.navp5-container').hover(function(){
         $('.navp5-L').toggleClass('navp5-boxHov');
         $('.navp5-L').toggleClass('navp5-Ltrans');
