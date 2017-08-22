@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+        
+//    -- PAGE LOAD DEMO --
+    
+    setTimeout(function () {
+            $('.ball-two').addClass('rowone');
+    }, 2000);
+    setTimeout(function () {
+            $('.ball-two').removeClass('rowone');
+    }, 2000);
+    
+    
 //    -- NAVIGATION --
     
     $('.navp1-circle1').hover(function() {
