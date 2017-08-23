@@ -71,8 +71,8 @@ p {
 /*-- BALLS --*/
 
 .ball.container {
-    height: 725px;
-    width: 725px;
+    height: 50vh;
+    width: 50vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
