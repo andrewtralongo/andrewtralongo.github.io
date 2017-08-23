@@ -43,68 +43,68 @@ $(document).ready(function() {
 //    -- NOTE --
 //    When all files are used, website doesn't work, so left in in case of solution found. This is why further below lines of code are commented.
     
-//    var FeelsLikeWeOnlyGoBackwards.mp3 = document.createElement('audio');
-//        FeelsLikeWeOnlyGoBackwards.mp3.setAttribute('src', 'assets/audio/FeelsLikeWeOnlyGoBackwards.mp3.mp3');
-//        $.get();
-//        FeelsLikeWeOnlyGoBackwards.mp3.addEventListener("load", function() {
-//          FeelsLikeWeOnlyGoBackwards.mp3.play();
-//        }, true);
+    var FeelsLikeWeOnlyGoBackwards = document.createElement('audio');
+        FeelsLikeWeOnlyGoBackwards.setAttribute('src', 'assets/audio/FeelsLikeWeOnlyGoBackwards.mp3');
+        $.get();
+        FeelsLikeWeOnlyGoBackwards.addEventListener("load", function() {
+          FeelsLikeWeOnlyGoBackwards.play();
+        }, true);
     
-//    var Ghosts = document.createElement('audio');
-//        Ghosts.setAttribute('src', 'assets/audio/Ghosts.mp3');
-//        $.get();
-//        Ghosts.addEventListener("load", function() {
-//          Ghosts.play();
-//        }, true);
+    var Ghosts = document.createElement('audio');
+        Ghosts.setAttribute('src', 'assets/audio/Ghosts.mp3');
+        $.get();
+        Ghosts.addEventListener("load", function() {
+          Ghosts.play();
+        }, true);
     
-//    var GotToGiveItUp = document.createElement('audio');
-//        GotToGiveItUp.setAttribute('src', 'assets/audio/GotToGiveItUp.mp3');
-//        $.get();
-//        GotToGiveItUp.addEventListener("load", function() {
-//          GotToGiveItUp.play();
-//        }, true);
+    var GotToGiveItUp = document.createElement('audio');
+        GotToGiveItUp.setAttribute('src', 'assets/audio/GotToGiveItUp.mp3');
+        $.get();
+        GotToGiveItUp.addEventListener("load", function() {
+          GotToGiveItUp.play();
+        }, true);
     
-//    var JokerAndTheThief = document.createElement('audio');
-//        JokerAndTheThief.setAttribute('src', 'assets/audio/JokerAndTheThief.mp3');
-//        $.get();
-//        JokerAndTheThief.addEventListener("load", function() {
-//          JokerAndTheThief.play();
-//        }, true);
+    var JokerAndTheThief = document.createElement('audio');
+        JokerAndTheThief.setAttribute('src', 'assets/audio/JokerAndTheThief.mp3');
+        $.get();
+        JokerAndTheThief.addEventListener("load", function() {
+          JokerAndTheThief.play();
+        }, true);
     
-//    var MeAndMrJones = document.createElement('audio');
-//        MeAndMrJones.setAttribute('src', 'assets/audio/MeAndMrJones.mp3');
-//        $.get();
-//        MeAndMrJones.addEventListener("load", function() {
-//          MeAndMrJones.play();
-//        }, true);
+    var MeAndMrJones = document.createElement('audio');
+        MeAndMrJones.setAttribute('src', 'assets/audio/MeAndMrJones.mp3');
+        $.get();
+        MeAndMrJones.addEventListener("load", function() {
+          MeAndMrJones.play();
+        }, true);
     
-//    var TheBoysAreBackInTown = document.createElement('audio');
-//        TheBoysAreBackInTown.setAttribute('src', 'assets/audio/TheBoysAreBackIn Town.mp3');
-//        $.get();
-//        TheBoysAreBackInTown.addEventListener("load", function() {
-//          TheBoysAreBackInTown.play();
-//        }, true);
+    var TheBoysAreBackInTown = document.createElement('audio');
+        TheBoysAreBackInTown.setAttribute('src', 'assets/audio/TheBoysAreBackInTown.mp3');
+        $.get();
+        TheBoysAreBackInTown.addEventListener("load", function() {
+          TheBoysAreBackInTown.play();
+        }, true);
     
-//    var TheWolf = document.createElement('audio');
-//        TheWolf.setAttribute('src', 'assets/audio/TheWolf.mp3');
-//        $.get();
-//        TheWolf.addEventListener("load", function() {
-//          TheWolf.play();
-//        }, true);
+    var TheWolf = document.createElement('audio');
+        TheWolf.setAttribute('src', 'assets/audio/TheWolf.mp3');
+        $.get();
+        TheWolf.addEventListener("load", function() {
+          TheWolf.play();
+        }, true);
     
-//    var TouchIt_Technologic = document.createElement('audio');
-//        Touch It_Technologic.setAttribute('src', 'assets/audio/Touch It_Technologic.mp3');
-//        $.get();
-//        Touch It_Technologic.addEventListener("load", function() {
-//          Touch It_Technologic.play();
-//        }, true);
+    var VCR = document.createElement('audio');
+        VCR.setAttribute('src', 'assets/audio/VCR.mp3');
+        $.get();
+        VCR.addEventListener("load", function() {
+          VCR.play();
+        }, true);
     
-//    var VCR = document.createElement('audio');
-//        VCR.setAttribute('src', 'assets/audio/VCR.mp3');
-//        $.get();
-//        VCR.addEventListener("load", function() {
-//          VCR.play();
-//        }, true);
+    var TouchIt_Technologic = document.createElement('audio');
+        TouchIt_Technologic.setAttribute('src', 'assets/audio/TouchIt_Technologic.mp3');
+        $.get();
+        TouchIt_Technologic.addEventListener("load", function() {
+          TouchIt_Technologic.play();
+        }, true);
     
 //    -- RECTANGLES --
     
@@ -112,7 +112,7 @@ $(document).ready(function() {
     
    $('.rect1').hover(function() {
        
-       $('.songTxt').html('<b>Breezeblocks</b><br>Alt-J<br>An Awesome Wave');
+       $('.songTxt').html('<b>Breezeblocks</b><br>Alt-J<br><em>An Awesome Wave</em>');
        
    },
            function(){
@@ -150,15 +150,15 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        TouchIt_Technologic.pause();
+        VCR.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
@@ -176,7 +176,7 @@ $(document).ready(function() {
     
     $('.rect2').hover(function() {
        
-       $('.songTxt').html('<b>Do I Wanna Know</b><br>Arctic Monkeys<br>AM');
+       $('.songTxt').html('<b>Do I Wanna Know</b><br>Arctic Monkeys<br><em>AM</em>');
        
    },
            function(){
@@ -214,15 +214,15 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         Breezeblocks.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
@@ -240,7 +240,7 @@ $(document).ready(function() {
     
     $('.rect3').hover(function() {
        
-       $('.songTxt').html('<b>Feels Like We Only Go Backwards</b><br>Tame Impala<br>Lonerism');
+       $('.songTxt').html('<b>Feels Like We Only Go Backwards</b><br>Tame Impala<br><em>Lonerism</em>');
        
    },
            function(){
@@ -276,24 +276,24 @@ $(document).ready(function() {
         
 //        -- PAUSES EVERYTHING --
         
-//        Breezeblocks.pause();
+        Breezeblocks.pause();
         DoIWannaKnow.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (Breezeblocks.paused == false) {
-            Breezeblocks.pause();
+            if (FeelsLikeWeOnlyGoBackwards.paused == false) {
+            FeelsLikeWeOnlyGoBackwards.pause();
         } else {
-            Breezeblocks.play();
+            FeelsLikeWeOnlyGoBackwards.play();
         }
 //        FeelsLikeWeOnlyGoBackwards.play();            
         }, transLength);
@@ -304,7 +304,7 @@ $(document).ready(function() {
     
     $('.rect4').hover(function() {
        
-       $('.songTxt').html('<b>Ghosts</b><br>Ibeyi<br>Ibeyi');
+       $('.songTxt').html('<b>Ghosts</b><br>Ibeyi<br><em>Ibeyi</em>');
        
    },
            function(){
@@ -341,23 +341,23 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         Breezeblocks.pause();
-//        DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        DoIWannaKnow.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (DoIWannaKnow.paused == false) {
-            DoIWannaKnow.pause();
+            if (Ghosts.paused == false) {
+            Ghosts.paused();
         } else {
-            DoIWannaKnow.play();
+            Ghosts.play();
         }
 //        Ghosts.play();
         }, transLength);
@@ -368,7 +368,7 @@ $(document).ready(function() {
     
     $('.rect5').hover(function() {
        
-       $('.songTxt').html('<b>Got To Give It Up (Part 1)</b><br>Marvin Gaye<br>Live at the London Palladium');
+       $('.songTxt').html('<b>Got To Give It Up (Part 1)</b><br>Marvin Gaye<br><em>Live at the London Palladium</em>');
        
    },
            function(){
@@ -404,24 +404,24 @@ $(document).ready(function() {
         
 //        -- PAUSES EVERYTHING --
         
-//        Breezeblocks.pause();
+        Breezeblocks.pause();
         DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (Breezeblocks.paused == false) {
-            Breezeblocks.pause();
+            if (GotToGiveItUp.paused == false) {
+            GotToGiveItUp.pause();
         } else {
-            Breezeblocks.play();
+            GotToGiveItUp.play();
         }
 //        GotToGiveItUp.play();            
         }, transLength);
@@ -432,7 +432,7 @@ $(document).ready(function() {
     
     $('.rect6').hover(function() {
        
-       $('.songTxt').html('<b>Joker And The Thief</b><br>Wolfmother<br>Wolfmother');
+       $('.songTxt').html('<b>Joker And The Thief</b><br>Wolfmother<br><em>Wolfmother</em>');
        
    },
            function(){
@@ -469,23 +469,23 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         Breezeblocks.pause();
-//        DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        DoIWannaKnow.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (DoIWannaKnow.paused == false) {
-            DoIWannaKnow.pause();
+            if (JokerAndTheThief.paused == false) {
+            JokerAndTheThief.pause();
         } else {
-            DoIWannaKnow.play();
+            JokerAndTheThief.play();
         }
 //        JokerAndTheThief.play();    
         }, transLength);
@@ -496,7 +496,7 @@ $(document).ready(function() {
     
     $('.rect7').hover(function() {
        
-       $('.songTxt').html('<b>Me & Mr Jones</b><br>Amy Winehouse<br>Back to Black');
+       $('.songTxt').html('<b>Me & Mr Jones</b><br>Amy Winehouse<br><em>Back to Black</em>');
        
    },
            function(){
@@ -532,24 +532,24 @@ $(document).ready(function() {
         
 //        -- PAUSES EVERYTHING --
         
-//        Breezeblocks.pause();
+        Breezeblocks.pause();
         DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (Breezeblocks.paused == false) {
-            Breezeblocks.pause();
+            if (MeAndMrJones.paused == false) {
+            MeAndMrJones.pause();
         } else {
-            Breezeblocks.play();
+            MeAndMrJones.play();
         }
 //        MeAndMrJones.play();      
         }, transLength);
@@ -560,7 +560,7 @@ $(document).ready(function() {
     
     $('.rect8').hover(function() {
        
-       $('.songTxt').html('<b>The Boys Are Back In Town</b><br>Thin Lizzy<br>Jailbreak');
+       $('.songTxt').html('<b>The Boys Are Back In Town</b><br>Thin Lizzy<br><em>Jailbreak</em>');
        
    },
            function(){
@@ -597,23 +597,23 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         Breezeblocks.pause();
-//        DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        DoIWannaKnow.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheWolf.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (DoIWannaKnow.paused == false) {
-            DoIWannaKnow.pause();
+            if (TheBoysAreBackInTown.paused == false) {
+            TheBoysAreBackInTown.pause();
         } else {
-            DoIWannaKnow.play();
+            TheBoysAreBackInTown.play();
         }
 //        TheBoysAreBackInTown.play();    
         }, transLength);
@@ -624,7 +624,7 @@ $(document).ready(function() {
     
     $('.rect9').hover(function() {
        
-       $('.songTxt').html('<b>The Wolf</b><br>Mumford and Sons<br>Wilder Minds');
+       $('.songTxt').html('<b>The Wolf</b><br>Mumford and Sons<br><em>Wilder Minds</em>');
        
    },
            function(){
@@ -660,24 +660,24 @@ $(document).ready(function() {
         
 //        -- PAUSES EVERYTHING --
         
-//        Breezeblocks.pause();
+        Breezeblocks.pause();
         DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TouchIt_Technologic.pause();
-//        VCR.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        VCR.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (Breezeblocks.paused == false) {
-            Breezeblocks.pause();
+            if (TheWolf.paused == false) {
+            TheWolf.pause();
         } else {
-            Breezeblocks.play();
+            TheWolf.play();
         }
 //        TheWolf.play();  
         }, transLength);
@@ -688,7 +688,7 @@ $(document).ready(function() {
     
     $('.rect10').hover(function() {
        
-       $('.songTxt').html('<b>Touch It / Technologic</b><br>Daft Punk<br>Alive 2007');
+       $('.songTxt').html('<b>VCR</b><br>The xx<br><em>xx</em>');
        
    },
            function(){
@@ -725,34 +725,32 @@ $(document).ready(function() {
 //        -- PAUSES EVERYTHING --
         
         Breezeblocks.pause();
-//        DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        VCR.pause();
+        DoIWannaKnow.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        TouchIt_Technologic.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (DoIWannaKnow.paused == false) {
-            DoIWannaKnow.pause();
+            if (VCR.paused == false) {
+            VCR.pause();
         } else {
-            DoIWannaKnow.play();
+            VCR.play();
         }
-//        TouchIt_Technologic.play();    
+//        VCR.play();    
         }, transLength);
         
     });
     
-//    -- RECT11 - VCR --
-    
     $('.rect11').hover(function() {
        
-       $('.songTxt').html('<b>VCR</b><br>The xx<br>xx');
+       $('.songTxt').html('<b>Touch It/Technologic</b><br>Daft Punk<br><em>Alive 2007</em>');
        
    },
            function(){
@@ -788,26 +786,26 @@ $(document).ready(function() {
         
 //        -- PAUSES EVERYTHING --
         
-//        Breezeblocks.pause();
+        Breezeblocks.pause();
         DoIWannaKnow.pause();
-//        FeelsLikeWeOnlyGoBackwards.pause();
-//        Ghosts.pause();
-//        GotToGiveItUp.pause();
-//        JokerAndTheThief.pause();
-//        MeAndMrJones.pause();
-//        TheBoysAreBackInTown.pause();
-//        TheWolf.pause();
-//        TouchIt_Technologic.pause();
+        FeelsLikeWeOnlyGoBackwards.pause();
+        Ghosts.pause();
+        GotToGiveItUp.pause();
+        JokerAndTheThief.pause();
+        MeAndMrJones.pause();
+        TheBoysAreBackInTown.pause();
+        TheWolf.pause();
+        VCR.pause();
         
 //        -- WAITS 1 SECOND TO BEGIN AUDIO --
         setTimeout(function () {
             
-            if (Breezeblocks.paused == false) {
-            Breezeblocks.pause();
+            if (TouchIt_Technologic.paused == false) {
+            TouchIt_Technologic.pause();
         } else {
-            Breezeblocks.play();
+            TouchIt_Technologic.play();
         }
-//        VCR.play();  
+//        TouchIt_Technologic.play();    
         }, transLength);
         
     });

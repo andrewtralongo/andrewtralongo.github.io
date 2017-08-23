@@ -16,116 +16,106 @@ a {
     text-decoration: inherit; 
 }
 
-.background-container {
-    height: 750px;
-    width: 500px;
-    margin: auto;
-    padding: 25px;
-    background: cyan;
-}
-
 .content-container {
-    width: 450px;
-    height: 450px;
+    width: 725px;
+    height: 725px;
     margin-bottom: 25px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
 }
 
 /*-- RECTANGLES --*/
 
 .rect {
-    width: 40px;
-    height: 100px;
+    width: 8%;
+    height: 25%;
     background: white;
     opacity: 0.5;
     margin-right: 1px;
-    transform: translateY(175px);
     transition: 2s;
 }
 .recttrans {
     opacity: 1;
 }
 
-.rect1 {
-}
+.rect1 {}
 .rect1trans {
-    transform: translateY(275px);
+    transform: translateY(100%);
 }
 
-.rect2 {
-}
+.rect2 {}
 .rect2trans {
-    transform: translateY(260px);
+    transform: translateY(78%);
 }
 
-.rect3 {
-}
+.rect3 {}
 .rect3trans {
-    transform: translateY(245px);
+    transform: translateY(56%);
 }
 
-.rect4 {
-}
+.rect4 {}
 .rect4trans {
-    transform: translateY(230px);
+    transform: translateY(34%);
 }
 
-.rect5 {
-}
+.rect5 {}
 .rect5trans {
-    transform: translateY(215px);
+    transform: translateY(12%);}
+
+.rect6 {}
+.rect6trans{
+    transform: translateY(0%);
 }
 
-.rect6 {
-}
-
-.rect7 {
-}
+.rect7 {}
 .rect7trans {
-    transform: translateY(155px);
+    transform: translateY(-12%);
 }
 
-.rect8 {
-}
+.rect8 {}
 .rect8trans {
-    transform: translateY(130px);
-}
+    transform: translateY(-34%);}
 
-.rect9 {
-}
+.rect9 {}
 .rect9trans {
-    transform: translateY(105px);
+    transform: translateY(-56%);
 }
 
-.rect10 {
-}
+.rect10 {}
 .rect10trans {
-    transform: translateY(90px);
+    transform: translateY(-78%);
 }
 
-.rect11 {
-}
+.rect11 {}
 .rect11trans {
-    transform: translateY(75px);
+    transform: translateY(-100%);
 }
+
+
 
 /* -- TEXT -- */
 
 .title-container {
-    width: 450px;
+    width: 100%;
     height: 150px;
     margin: auto;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     font-size: 2em;
-    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subtitle-container {
-    width: 450px;
-    height: 75px;
+    width: 100%;
+    height: 120px;
     margin: auto;
     border-bottom: 10px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 .songTxt {
@@ -134,7 +124,7 @@ a {
     padding: 5px;
     float: left;
     transition: all 1s;
-    font-size: 0.75em;
+    font-size: 1em;
 }
 
 .mani {
@@ -145,7 +135,6 @@ a {
     margin-left: 25px;
     padding-top: 5px;
     color: white;
-    opacity: 0.5;
 }
 
 /*-- NAVIGATION --*/
