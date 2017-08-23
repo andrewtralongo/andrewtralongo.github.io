@@ -67,8 +67,8 @@ a {
 }
 
 .box{
-    width: 725px;
-    height: 725px;
+    width: 50vh;
+    height: 50vh;
     background: rgba(14,100,211,0.05);
     position: relative;
     margin: auto;
