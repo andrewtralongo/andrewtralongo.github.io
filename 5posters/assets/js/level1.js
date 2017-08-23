@@ -3,10 +3,7 @@ $(document).ready(function() {
 //    -- NAVIGATION --
     
     $('.navp1-circle1').hover(function() {
-        $('.navp1-circle1').toggleClass('navp1-circle1Hov');
-        $('.navp1-circle2').toggleClass('navp1-circle2Hov');
-        $('.navp1-circle3').toggleClass('navp1-circle3Hov');
-        $('.navp1-circle4').toggleClass('navp1-circle4Hov');
+        $('.navp1-circle1').toggleClass('navp1-circle1Hov', 'navp1-circle2Hov', 'navp1-circle3Hov', 'navp1-circle4Hov');
 });
     
     $('.navp2-container').hover(function(){

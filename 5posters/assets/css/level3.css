@@ -1,4 +1,4 @@
-x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
 
 
 * {
@@ -7,27 +7,34 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     padding: 0;
 }
 
-
-.background-container {
-    height: 750px;
-    width: 500px;
-    margin: auto;
-    background: black;
+body {
+    background: rgb(17,17,17);
+    color: #e5e5e5;
 }
 
-.header-container{
+a {
+    text-decoration: inherit; 
+}
+
+.mani-container{
     height: 250px;
+    width: 725px;
+    margin: auto;
     padding: 25px;
-    background: #e3efeb;
     position: relative;
     overflow: hidden;
-
+    display: flex;
+    flex-direction: column;
 }
 
-.header-column{
-    width: 109px;
+.mani-text {
+    width: 100%;
+    display: flex;
+}
+
+.mani-column{
+    width: 25%;
     height: 100px;
-    display: inline-block;
     vertical-align: top;
     opacity: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,12 +42,16 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     transition: all 2.5s;
 }
 
-.header-column-transin{
+.mani-column-transin{
     opacity: 1;
     padding-top: 50px;
 }
 
-.header-title{
+.mani-title-container {
+    width: 100%;
+}
+
+.mani-title{
     width: 450px;
     height: 100px;
     padding-top: 25px;
@@ -50,18 +61,18 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     transition: all 2.5s;
 }
 
-.header-title-transout{
+.mani-title-transout{
     opacity: 0;
     margin-left: 400px;
 }
 
 .box{
-    width: 500px;
-    height: 500px;
-    background: rgba(14,100,211,0.15);
+    width: 725px;
+    height: 725px;
+    background: rgba(14,100,211,0.05);
     position: relative;
     margin: auto;
-    transition: all 0.5s;
+    transition: ease 0.5s;
 }
 
 .box.one{
@@ -92,33 +103,37 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     transform: scale(0.85,0.85);
 }
 
-.boxborder{
-    border: 2px solid rgba(255,255,255,0.25);
-    border-radius: 3px;
+.boxbg{
+    background: rgba(14,100,211,0.15);
 }
 
 /*-- NAVIGATION --*/
 
-.nav-container{
+.nav.container{
     padding-top: 25px;
     width: 100%;
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    background: linear-gradient( peachpuff, rgba(255,255,255,0));
+}
+
+.navBorder {
+    border: 2px solid peachpuff;
+}
+
+.navTrans {
+    transition: 1s ease;
 }
         
 .navIndex{
     height: 96px;
     width: 100px;
-    display: inline-block;
     text-align: center;
     line-height: 96px;
     font-size: 2.5em;
     color: peachpuff;
-    transition: 1s ease;
-    border: 2px solid;
     font-family: "Times New Roman", Times, serif;
+    position: relative;
 }
 
 .navIndex:hover {
@@ -135,9 +150,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     border-radius: 50%;
     position: relative;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp1-circle1Hov {
@@ -152,8 +164,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     transform: translateY(10px);
     border-radius: 50%;
     position: relative;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle2Hov {
     background: #333333;
@@ -167,8 +177,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle3Hov {
     background: #d31515;
@@ -182,8 +190,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle4Hov {
     background: #ed0909;
@@ -196,29 +202,18 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     height: 100px;
     width: 100px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
 }
 
-.navp2-circleContainer{
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    transition: 1s ease;
-}
-
-.navp2-circleContainer:hover{
+.navp2-container:hover{
     animation: p2rotate 5s infinite linear;
 }
 
 .navp2-circleL{
     position: relative;
-    height: 46px;
-    width: 96px;
+    height: 50px;
+    width: 100px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp2-circleLHov {
     background: #4baa63;
@@ -227,12 +222,10 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
 
 .navp2-circleR{
     position: relative;
-    height: 46px;
-    width: 96px;
+    height: 50px;
+    width: 100px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp2-circleRHov {
     background: #50ba6c;
@@ -245,13 +238,10 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     height: 96px;
     width: 96px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp3-container:hover{
-    background: black;
+    background: rgb(17,17,17);
     border-color: white;
 }
 
@@ -266,7 +256,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 .navp3-box3{
@@ -275,7 +264,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 .navp3-box4{
@@ -284,7 +272,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 /*-- navp4 --*/
@@ -293,14 +280,11 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     height: 100px;
     width: 100px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp4-container:hover{
     background: hsl(47, 100%, 51%);
-    border-radius: 25px;
+    border-radius: 25%;
     border-color: white;
 }
 
@@ -312,9 +296,6 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
     margin-left: 25px;
     display: flex;
     justify-content: center;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 
 .navp5-container:hover{
@@ -329,10 +310,7 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
 .navp5-L {
     height: 70px;
     width: 30px;
-    border: 2px solid peachpuff;
-    display: inline-block;
     transform: translateY(12px);
-    transition: 1s ease;
 }
 .navp5-Ltrans {
     transform: translateY(0px);
@@ -342,10 +320,7 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
 .navp5-R {
     height: 70px;
     width: 30px;
-    border: 2px solid peachpuff;
-    display: inline-block;
     transform: translateY(12px);
-    transition: 1s ease;
 }
 .navp5-Rtrans {
     transform: translateY(24px);
@@ -354,27 +329,26 @@ x/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */htm
 
 /*-- FOOTER --*/
 
-.footer-container {
-    height: 125px;
+.footer.container {
+    height: 35px;
     width: 100%;
-    margin-top: 25px;
-    padding: 50px;
-    position: fixed;
+    padding-left: 2vh;
+    margin-bottom: 2vh;
+    position: absolute;
     bottom: 0;
-    justify-content: left;
-    background: linear-gradient( rgba(255,255,255,0), peachpuff);
+    display: flex;
+    align-items: center; 
 }
 
 .footer-logo{
     height: 100%;
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .footer-txt {
     height: 100%;
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: #3e5d9b;
-    display: inline-block;
+    color: white;
 }
 
 

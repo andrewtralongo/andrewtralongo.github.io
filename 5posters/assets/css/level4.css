@@ -5,65 +5,54 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-weight: normal;
 }
 
-
-.background-container {
-    height: 750px;
-    width: 500px;
-    margin: auto;
+body {
     background: rgb(10,10,10);
 }
 
+a {
+    text-decoration: inherit; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: rgb(225,225,225);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
 .header.container {
-    height: 150px;
-    width: 500px;
-    padding: 17px;
+    width: 100%;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
 }
 
-.title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.35em;
-    color: white;
-    font-weight: bold;
-}
+.header.name {}
+.header.number {}
 
-.subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.95em;
-    color: white;
-}
-
-.body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5em;
-    color: white;
-}
-
-.header.name {
-    display: inline-block;
-}
-
-.header.number {
-    display: inline-block;
-    float: right;
-}
-
-.header.title {
-    margin-top: 50px;
-}
-
-.body.container {
-    height: 500px;
-    width: 500px;
-    padding: 17px;
-    
+.mani.title {
+    width: 725px;
+    margin: auto;
 }
 
 .mani.container {
-    height: 100px;
-    width: 500px;
-    padding: 17px;
+    width: 725px;
+    margin: auto;
+    padding: 2vw;
     position: relative;
 }
 
@@ -74,263 +63,142 @@
 .mani.column {
     display: inline-block;
     float: right;
-    width: 150px;
+    margin-left: 5vw;
     vertical-align: top;
 }
 
 
 /*-- BALLS --*/
+
+.ball.container {
+    height: 725px;
+    width: 725px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+/*
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+*/
+    margin: auto;
+}
+
+.ball {
+    height: 19%;
+    width: 19%;
+    transition: all 1.5s;
+}
+
 /*-- ROW 1 --*/
 
-.rowone {
+.rOne-trans {
     border-radius: 45px;
 }
 
-.ball-one {
-    height: 90px;
-    width: 90px;
+.rOne-bg {
     background: hsl(53, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
 }
 
-.ball-two {
-    height: 90px;
-    width: 90px;
-    background: hsl(53, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-three {
-    height: 90px;
-    width: 90px;
-    background: hsl(53, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-four {
-    height: 90px;
-    width: 90px;
-    background: hsl(53, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-five {
-    height: 90px;
-    width: 90px;
-    background: hsl(53, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
+.ball-one {}
+.ball-two {}
+.ball-three {}
+.ball-four {}
+.ball-five {}
 
 /*-- ROW 2 --*/
 
-.rowtwo {
+.rTwo {
     border-radius: 35px;
 }
 
-.ball-six {
-    height: 90px;
-    width: 90px;
+.rTwo-bg {
     background: hsl(51, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
 }
 
-.ball-seven {
-    height: 90px;
-    width: 90px;
-    background: hsl(51, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-eight {
-    height: 90px;
-    width: 90px;
-    background: hsl(51, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-nine {
-    height: 90px;
-    width: 90px;
-    background: hsl(51, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-ten {
-    height: 90px;
-    width: 90px;
-    background: hsl(51, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
+.ball-six {}
+.ball-seven {}
+.ball-eight {}
+.ball-nine {}
+.ball-ten {}
 
 /*-- ROW 3 --*/
 
-.rowthree {
+.rThree-trans {
     border-radius: 25px;
 }
 
-.ball-eleven {
-    height: 90px;
-    width: 90px;
+.rThree-bg {
     background: hsl(49, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
 }
 
-.ball-twelve {
-    height: 90px;
-    width: 90px;
-    background: hsl(49, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-thirteen {
-    height: 90px;
-    width: 90px;
-    background: hsl(49, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-fourteen {
-    height: 90px;
-    width: 90px;
-    background: hsl(49, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-fifteen {
-    height: 90px;
-    width: 90px;
-    background: hsl(49, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
+.ball-eleven {}
+.ball-twelve {}
+.ball-thirteen {}
+.ball-fourteen {}
+.ball-fifteen {}
 
 /*-- ROW 4 --*/
 
-.rowfour {
+.rFour-trans {
     border-radius: 15px;
 }
 
-.ball-sixteen {
-    height: 90px;
-    width: 90px;
+.rFour-bg {
     background: hsl(47, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
 }
 
-.ball-seventeen {
-    height: 90px;
-    width: 90px;
-    background: hsl(47, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-eighteen {
-    height: 90px;
-    width: 90px;
-    background: hsl(47, 100%, 51%);
-    display: inline-block;
-}
-
-.ball-nineteen {
-    height: 90px;
-    width: 90px;
-    background: hsl(47, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-twenty {
-    height: 90px;
-    width: 90px;
-    background: hsl(47, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
+.ball-sixteen {}
+.ball-seventeen {}
+.ball-eighteen {}
+.ball-nineteen {}
+.ball-twenty {}
 
 /*-- ROW 5 --*/
 
-.rowfive {
+.rFive-trans {
     border-radius: 7px;
 }
 
-.ball-twentyone {
-    height: 90px;
-    width: 90px;
+.rFive-bg {
     background: hsl(45, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
 }
 
-.ball-twentytwo {
-    height: 90px;
-    width: 90px;
-    background: hsl(45, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-twentythree {
-    height: 90px;
-    width: 90px;
-    background: hsl(45, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-twentyfour {
-    height: 90px;
-    width: 90px;
-    background: hsl(45, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
-
-.ball-twentyfive {
-    height: 90px;
-    width: 90px;
-    background: hsl(45, 100%, 51%);
-    display: inline-block;
-    transition: all 1.5s;
-}
+.ball-twentyone {}
+.ball-twentytwo {}
+.ball-twentythree {}
+.ball-twentyfour {}
+.ball-twentyfive {}
 
 /*-- NAVIGATION --*/
 
-.nav-container{
+.nav.container{
     padding-top: 25px;
     width: 100%;
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    background: linear-gradient( peachpuff, rgba(255,255,255,0));
+}
+
+.navBorder {
+    border: 2px solid peachpuff;
+}
+
+.navTrans {
+    transition: 1s ease;
 }
         
 .navIndex{
     height: 96px;
     width: 100px;
-    display: inline-block;
     text-align: center;
     line-height: 96px;
     font-size: 2.5em;
     color: peachpuff;
-    transition: 1s ease;
-    border: 2px solid;
     font-family: "Times New Roman", Times, serif;
+    position: relative;
 }
 
 .navIndex:hover {
@@ -347,9 +215,6 @@
     border-radius: 50%;
     position: relative;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp1-circle1Hov {
@@ -364,8 +229,6 @@
     transform: translateY(10px);
     border-radius: 50%;
     position: relative;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle2Hov {
     background: #333333;
@@ -379,8 +242,6 @@
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle3Hov {
     background: #d31515;
@@ -394,8 +255,6 @@
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp1-circle4Hov {
     background: #ed0909;
@@ -408,29 +267,18 @@
     height: 100px;
     width: 100px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
 }
 
-.navp2-circleContainer{
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    transition: 1s ease;
-}
-
-.navp2-circleContainer:hover{
+.navp2-container:hover{
     animation: p2rotate 5s infinite linear;
 }
 
 .navp2-circleL{
     position: relative;
-    height: 46px;
-    width: 96px;
+    height: 50px;
+    width: 100px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp2-circleLHov {
     background: #4baa63;
@@ -439,12 +287,10 @@
 
 .navp2-circleR{
     position: relative;
-    height: 46px;
-    width: 96px;
+    height: 50px;
+    width: 100px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 .navp2-circleRHov {
     background: #50ba6c;
@@ -457,13 +303,10 @@
     height: 96px;
     width: 96px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp3-container:hover{
-    background: black;
+    background: rgb(17,17,17);
     border-color: white;
 }
 
@@ -478,7 +321,6 @@
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 .navp3-box3{
@@ -487,7 +329,6 @@
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 .navp3-box4{
@@ -496,7 +337,6 @@
     position: relative;
     margin: auto;
     transform: translateY(10px);
-    border: 2px solid peachpuff;
 }
 
 /*-- navp4 --*/
@@ -505,14 +345,11 @@
     height: 100px;
     width: 100px;
     margin-left: 25px;
-    display: inline-block;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
 }
 
 .navp4-container:hover{
     background: hsl(47, 100%, 51%);
-    border-radius: 25px;
+    border-radius: 25%;
     border-color: white;
 }
 
@@ -524,9 +361,6 @@
     margin-left: 25px;
     display: flex;
     justify-content: center;
-    transition: 1s ease;
-    border: 2px solid peachpuff;
-    transition: 1s ease;
 }
 
 .navp5-container:hover{
@@ -541,10 +375,7 @@
 .navp5-L {
     height: 70px;
     width: 30px;
-    border: 2px solid peachpuff;
-    display: inline-block;
     transform: translateY(12px);
-    transition: 1s ease;
 }
 .navp5-Ltrans {
     transform: translateY(0px);
@@ -554,10 +385,7 @@
 .navp5-R {
     height: 70px;
     width: 30px;
-    border: 2px solid peachpuff;
-    display: inline-block;
     transform: translateY(12px);
-    transition: 1s ease;
 }
 .navp5-Rtrans {
     transform: translateY(24px);
@@ -566,27 +394,26 @@
 
 /*-- FOOTER --*/
 
-.footer-container {
-    height: 125px;
+.footer.container {
+    height: 35px;
     width: 100%;
-    margin-top: 25px;
-    padding: 50px;
-    position: fixed;
+    padding-left: 2vh;
+    margin-bottom: 2vh;
+    position: absolute;
     bottom: 0;
-    justify-content: left;
-    background: linear-gradient( rgba(255,255,255,0), peachpuff);
+    display: flex;
+    align-items: center; 
 }
 
 .footer-logo{
     height: 100%;
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .footer-txt {
     height: 100%;
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: #3e5d9b;
-    display: inline-block;
+    color: white;
 }
 
 
@@ -596,4 +423,3 @@
     from { transform: rotate(0deg) }
     to { transform: rotate(360deg) }
 }
-

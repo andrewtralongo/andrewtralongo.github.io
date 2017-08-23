@@ -3,10 +3,7 @@ $(document).ready(function() {
 //    -- NAVIGATION --
     
     $('.navp1-circle1').hover(function() {
-        $('.navp1-circle1').toggleClass('navp1-circle1Hov');
-        $('.navp1-circle2').toggleClass('navp1-circle2Hov');
-        $('.navp1-circle3').toggleClass('navp1-circle3Hov');
-        $('.navp1-circle4').toggleClass('navp1-circle4Hov');
+        $('.navp1-circle1').toggleClass('navp1-circle1Hov', 'navp1-circle2Hov', 'navp1-circle3Hov', 'navp1-circle4Hov');
 });
     
     $('.navp2-container').hover(function(){
@@ -24,65 +21,67 @@ $(document).ready(function() {
 //    -- POSTER --
     
     setTimeout(function () {
-      $('.box.one').addClass('boxborder');
-        
-        setTimeout(function () {
-      $('.box.one').removeClass('boxborder');
-      $('.box.two').addClass('boxborder');
-            
-            setTimeout(function () {
-      $('.box.two').removeClass('boxborder');
-      $('.box.three').addClass('boxborder');  
-                
-                setTimeout(function () {
-      $('.box.three').removeClass('boxborder');
-      $('.box.four').addClass('boxborder');    
-                    
-                    setTimeout(function () {
-      $('.box.four').removeClass('boxborder');
-      $('.box.five').addClass('boxborder'); 
-                        
-                        setTimeout(function () {
-      $('.box.five').removeClass('boxborder');
-      $('.box.six').addClass('boxborder');   
-                            
-                            setTimeout(function () {
-      $('.box.six').removeClass('boxborder');
-      $('.box.seven').addClass('boxborder');
-                                
-                                setTimeout(function () {
-      $('.box.seven').removeClass('boxborder');
-    }, 2000);
-                                
-    }, 2000);
-                            
-    }, 2000);
-                        
-    }, 2000);
-                    
-    }, 2000);
-                
-    }, 2000);
-            
-    }, 2000);
-        
-    }, 2000);
-
-    
-    setTimeout(function () {
-      $('.header-title').addClass('header-title-transout');
+      $('.mani-title').addClass('mani-title-transout');
         
         
         setTimeout(function () {
-            $('.header-title').text("kesselskramer");
-      $('.header-title').removeClass('header-title-transout');
+            $('.mani-title').text("Untitled");
+      $('.mani-title').removeClass('mani-title-transout');
     }, 3000);
         
     }, 1000);
     
     setTimeout(function () {
-      $('.header-column').addClass('header-column-transin');
+      $('.mani-column').addClass('mani-column-transin');
     }, 4000);
-
-
+    
+    function pulse(){
+    
+    setTimeout(function() {
+      $('.box.one').addClass('boxbg');
+        
+        setTimeout(function () {
+      $('.box.one').removeClass('boxbg');
+      $('.box.two').addClass('boxbg');
+            
+            setTimeout(function () {
+      $('.box.two').removeClass('boxbg');
+      $('.box.three').addClass('boxbg');  
+                
+                setTimeout(function () {
+      $('.box.three').removeClass('boxbg');
+      $('.box.four').addClass('boxbg');    
+                    
+                    setTimeout(function () {
+      $('.box.four').removeClass('boxbg');
+      $('.box.five').addClass('boxbg'); 
+                        
+                        setTimeout(function () {
+      $('.box.five').removeClass('boxbg');
+      $('.box.six').addClass('boxbg');   
+                            
+                            setTimeout(function () {
+      $('.box.six').removeClass('boxbg');
+      $('.box.seven').addClass('boxbg');
+                                
+                                setTimeout(function () {
+      $('.box.seven').removeClass('boxbg');
+    }, 250);
+                                
+    }, 250);
+                            
+    }, 250);
+                        
+    }, 250);
+                    
+    }, 250);
+                
+    }, 250);
+            
+    }, 250);
+        
+    }, 250, pulse);
+        
+    }
+    pulse();
   });
