@@ -126,15 +126,19 @@ a {
     width: 45%;
 }
 
-.main-L.q {
+.main-L {
     font-size: 1.5em;
-    color: lightgrey;
+    color: rgb(230,230,230);
+}
+
+q {
+    color: rgb(240,240,240);
 }
 
 .main-R {
     width: 45%;
     font-size: 1.3em;
-    color: white;
+    color: rgb(240,240,240);
 }
 
 .footer-icon{
@@ -178,9 +182,10 @@ a {
 /*-- ICONS --*/
 
 .linkicn-container {
-    height: 750px;
-    width: 750px;
+    height: 650px;
+    width: 650px;
     position: absolute;
+    bottom: 180px;
     margin: auto;
     display: flex;
 }
@@ -195,10 +200,9 @@ a {
     position: absolute;
     display: hidden;
 }
-
 .navp1-circle1 {
-    height: 750px;
-    width: 750px;
+    height: 650px;
+    width: 650px;
     border-radius: 50%;
     position: relative;
     display: inline-block;
@@ -206,30 +210,30 @@ a {
 }
 
 .navp1-circle2 {
-    height: 600px;
-    width:600px;
+    height: 500px;
+    width: 500px;
     margin: auto;
-    transform: translateY(73px);
+    transform: translateY(75px);
     border-radius: 50%;
     position: relative;
 }
 
 .navp1-circle3 {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     position: relative;
     margin: auto;
-    transform: translateY(73px);
+    transform: translateY(75px);
 }
 
 .navp1-circle4 {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     position: relative;
     margin: auto;
-    transform: translateY(70px);
+    transform: translateY(75px);
 }
 
 .navp2-container {
@@ -239,16 +243,16 @@ a {
 
 .navp2-circleL {
     position: relative;
-    height: 375px;
-    width: 750px;
+    height: 325px;
+    width: 650px;
     border-top-left-radius: 375px;
     border-top-right-radius: 375px;
 }
 
 .navp2-circleR {
     position: relative;
-    height: 375px;
-    width: 750px;
+    height: 325px;
+    width: 650px;
     border-bottom-left-radius: 375px;
     border-bottom-right-radius: 375px;
 }
@@ -256,46 +260,46 @@ a {
 .navp3-container {
     opacity: 0;
     position: absolute;
-    height: 750px;
-    width: 750px;
+    height: 650px;
+    width: 650px;
 }
 
 .navp3-box2 {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     margin: auto;
-    transform: translateY(73px);
+    transform: translateY(75px);
     position: relative;
 }
 
 .navp3-box3 {
-    height: 450px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     margin: auto;
-    transform: translateY(73px);
+    transform: translateY(75px);
     position: relative;
 }
 
 .navp3-box4 {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin: auto;
-    transform: translateY(70px);
+    transform: translateY(75px);
     position: relative;
 }
 
 .navp4-container {
     opacity: 0;
-    height: 750px;
-    width: 750px;
+    height: 650px;
+    width: 650px;
     border-radius: 25%;
 }
 
 .navp5-container {
     opacity: 0;
     position: absolute;
-    height: 750px;
-    width: 750px;
+    height: 650px;
+    width: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
