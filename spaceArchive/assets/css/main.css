@@ -15,7 +15,6 @@ body {
     font-weight: bold;
 }
 
-
 /*-- DESCRIPTION --*/
 
 p {
@@ -38,7 +37,7 @@ q {
     padding-left: 10vw;
     padding-right: 33vw;
     display: none;
-    background-color: #be0000;
+    background-color: #427cce;
 }
 
 /*-- IMAGES --*/
@@ -99,8 +98,8 @@ h1 {
 
 .title:hover {
     cursor: help;
-    color: #be0000;
-    text-shadow: 2px 2px #4f4f4f;
+    color: #427cce;
+    text-shadow: 2px 2px #fff;
 }
 
 /*-- NAV --*/
@@ -122,12 +121,12 @@ h1 {
 .nav span:hover {
     font-style: italic;
     font-weight: bold;
-    color: #be0000;
+    color: #427cce;
     cursor: pointer;
 }
 
 .nav.tHov {
-    color: #be0000;
+    color: #427cce;
 }
 
 /*-- FOOTER --*/
