@@ -123,10 +123,8 @@ h1 {
 }
 
 @media only screen 
-   and (max-width : 320px) {
-    .nav {
-        display: none;
-    }
+   and (max-width : 750px)  {
+       .nav {display: none;}
 }
 
 .nav span {
