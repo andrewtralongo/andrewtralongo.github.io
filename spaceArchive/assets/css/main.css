@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #4f4f4f;
+    background-color: red;
 }
 
 .b {
@@ -52,6 +52,7 @@ q {
 }
 
 .item { 
+    height: 13vmin;
 }
 
 .item img {
