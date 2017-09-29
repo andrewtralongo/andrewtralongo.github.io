@@ -62,7 +62,10 @@ body {
 }
 
 @media only screen and (max-width : 375px)
-{ .cvr { flex-direction: column;} }
+{ .cvr {
+    padding-left: 25vw;
+    flex-direction: column;
+    align-items: flex-start;} }
 
 .txt {
     font-family: 'Space Mono', monospace;
