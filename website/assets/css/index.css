@@ -52,6 +52,8 @@ body {
     height: calc(100vh - 125px);
     width: 100vw;
 }
+@media only screen and (max-width : 375px)
+{ .txtContainer {height: 100vh;} }
 
 .cvr {
     width: 100vw;
@@ -60,7 +62,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 @media only screen and (max-width : 375px)
 { .cvr {
     padding-left: 25vw;
