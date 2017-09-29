@@ -1,0 +1,132 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+body {
+    background-color: #161616;
+    background: url(../images/staticGifHardLight.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* --FLEX COLUMNS-- */
+
+.col1of2{
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1of3{
+    flex: 0 0 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --TEXT BACKGROUND-- */
+
+.txtContainer {
+/*    height: 100vh;*/
+    height: calc(100vh - 125px);
+    width: 100vw;
+}
+
+.cvr {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width : 375px)
+{ .cvr { flex-direction: column;} }
+
+.txt {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: rgba(0,0,0,0);
+    font-size: calc(1.3rem + 2.5vmin);
+}
+
+.y {
+    mix-blend-mode: screen;
+    -webkit-text-stroke: 2px rgb(255,255,0);
+}
+.yTrans {transform: translate(-2px,1px);}
+
+.m {
+    mix-blend-mode: screen;
+    -webkit-text-stroke: 2px rgb(255,0,255);
+}
+.mTrans {transform: translate(2px,4px);}
+
+.c {
+    mix-blend-mode: screen;
+    -webkit-text-stroke: 2px rgb(0,255,255);
+}
+.cTrans {transform: translate(-3px,-1px);}
+
+/* --TITLE-- */
+
+.header {
+    width: 93vw;
+    margin-left: 7vw;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 50px;
+    display: flex;
+/*    flex-direction: column;*/
+    border-bottom: 2px solid white;
+}
+
+.name {
+    height: 75px;
+    width: 325px;
+    border: 2px solid white;
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+.name img { width: 40px;}
+
+.details {
+    height: 75px;
+    width: calc(90vw - 325px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+
