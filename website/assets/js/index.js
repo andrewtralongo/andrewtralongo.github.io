@@ -126,5 +126,60 @@ $(document).ready(function() {
         tRightInit();
     });
 
+    
+//    5posters
+//    aesop
+//    cinqueTerre
+//    diaDeLosMuertos
+//    herschelListen
+//    hardWogLife
+//    portamiVia
+//    stressedOut
+//    topOfEurope
+//    touchDesignerInClass
+//    ugh
+//    visualiserCircle
+    
+    
+    
+    $('.5posters').hover(function() {
+        $('.folio.title').text("// 5 Posters");
+    });
+    $('.aesop').hover(function() {
+        $('.folio.title').text("// Aesop");
+    });
+    $('.cinqueTerre').hover(function() {
+        $('.folio.title').text("// Cinque Terre");
+    });
+    $('.diaDeLosMuertos').hover(function() {
+        $('.folio.title').text("// Dia De Los Muertos");
+    });
+    $('.hardWogLife').hover(function() {
+        $('.folio.title').text("// It's a Hard Wog Life");
+    });
+    $('.herschelListen').hover(function() {
+        $('.folio.title').text("// Herschel Listen");
+    });
+    $('.interventionOfSpace').hover(function() {
+        $('.folio.title').text("// Intervention of Space");
+    });
+    $('.portamiVia').hover(function() {
+        $('.folio.title').text("// Portami Via");
+    });
+    $('.stressedOut').hover(function() {
+        $('.folio.title').text("// Stressed Out");
+    });
+    $('.topOfEurope').hover(function() {
+        $('.folio.title').text("// Top of Europe");
+    });
+    $('.touchDesignerInClass').hover(function() {
+        $('.folio.title').text("// Touch Designer In Class");
+    });
+    $('.ugh').hover(function() {
+        $('.folio.title').text("// UGH!");
+    });
+    $('.visualiserCircle').hover(function() {
+        $('.folio.title').text("// Visualiser");
+    });
 
   });
