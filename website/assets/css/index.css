@@ -149,7 +149,7 @@ body {
     align-content: flex-start;
 }
 @media only screen and (max-width : 375px)
-{ .folio.grid {flex: 0 0 100%} }
+{ .folio.grid {flex: 0 0 100%;flex-direction: column} }
 
 .thumbnail {flex: 0 0 33.33%}
 @media only screen and (max-width : 375px)
