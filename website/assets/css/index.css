@@ -7,39 +7,21 @@
     padding: 0;
 }
 
-.red {
-    background-color: red;
-}
-
-.aqua {
-    background-color: aqua;
-}
-
-.green {
-    background-color: green;
-}
-
-.pink {
-    background-color: pink;
-}
-
 body {
     background-color: #161616;
-    background: url(../images/staticGifHardLight.gif) no-repeat center center fixed;
+    background: url(../images/staticGif75.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
 /* --FLEX COLUMNS-- */
 
-.col1of2{
-    flex: 0 0 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.col1of2{flex: 0 0 50%;}
 
-.col1of3{
-    flex: 0 0 33.33%;
+.col1of3{flex: 0 0 33.33%;}
+
+.col2of3{flex: 0 0 66.66%}
+
+.flexCent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +35,7 @@ body {
     position: relative;
 }
 @media only screen and (max-width : 375px)
-{ .txtContainer {height: 100vh;} }
+{ .txtContainer {height: 100vh} }
 
 .cvr {
     width: 100%;
@@ -101,14 +83,13 @@ body {
     margin-left: 7%;
     margin-bottom: 50px;
     display: flex;
-/*    flex-direction: column;*/
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff;
 }
 
 .name {
     height: 75px;
     width: 325px;
-    border: 2px solid white;
+    border: 2px solid #fff;
     border-bottom: 0px;
     display: flex;
     justify-content: center;
@@ -116,7 +97,7 @@ body {
     
     font-family: 'Proza Libre', sans-serif;
     font-size: 1.5em;
-    color: white;
+    color: #fff;
 }
 .name img {width: 40px}
 
@@ -129,32 +110,47 @@ body {
     box-shadow: 0px -5px 10px #070707;
     position: relative;
     display: flex;
-    padding-top: 10%;
 }
+@media only screen and (max-width : 375px)
+{ .folioContainer {flex-direction: column} }
 
 .folio.info {
-    flex: 0 0 33.3%;
     padding-left: 3%;
+    padding: 3%;
     font-family: 'Space Mono', monospace;
     font-size: 0.75em;
     color: #f2f2f2;
 }
-.folio.title {
+
+.folio.titleD {
     margin-top: 10%;
     font-family: 'Space Mono', monospace;
     font-size: 1.75em;
     color: white;
 }
+@media only screen and (max-width : 375px)
+{ .folio.titleD {display: none} }
+.folio.titleM {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.75em;
+    color: white;
+    display: none;
+}
+@media only screen and (max-width : 375px)
+{ .folio.titleM {display: block} }
 
 .folio.grid {
     height: 100%;
     overflow-y: scroll;
-    flex: 0 0 66.6%;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
-.spacer {}
+@media only screen and (max-width : 375px)
+{ .folio.grid {flex: 0 0 100%} }
+
 .thumbnail img {
     max-width: 100%;
     max-height: 100%;

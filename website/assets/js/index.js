@@ -2,7 +2,12 @@ $(document).ready(function() {
 
     setTimeout(function () {
         
-        var x = Math.floor(Math.random() * 4) + 1;
+        var x = Math.floor(Math.random() * 5) + 1;
+//        Nice Different Unusual
+//        Yea Nah Yea
+//        Good Good Not Bad
+//        Same Same But Different
+//        Nothing is Something
         
         if (x == 1){
             $('.tLeft').text("Nice");
@@ -25,7 +30,13 @@ $(document).ready(function() {
         if (x == 4){
             $('.tLeft').text("Same");
             $('.tCenter').text("Same");
-            $('.tRight').text("Different");
+            $('.tRight').text("But Different");
+        }
+        
+        if (x == 5){
+            $('.tLeft').text("Nothing");
+            $('.tCenter').text("Is");
+            $('.tRight').text("Something");
         }
         
     }, 0);
@@ -128,6 +139,7 @@ $(document).ready(function() {
 
     
 //    5posters
+//    adornment  
 //    aesop
 //    cinqueTerre
 //    diaDeLosMuertos
@@ -143,43 +155,46 @@ $(document).ready(function() {
     
     
     $('.5posters').hover(function() {
-        $('.folio.title').text("// 5 Posters");
+        $('.folio.titleD').text("// 5 Posters");
+    });
+    $('.adornment').hover(function() {
+        $('.folio.titleD').text("// Adornment");
     });
     $('.aesop').hover(function() {
-        $('.folio.title').text("// Aesop");
+        $('.folio.titleD').text("// Aesop");
     });
     $('.cinqueTerre').hover(function() {
-        $('.folio.title').text("// Cinque Terre");
+        $('.folio.titleD').text("// Cinque Terre");
     });
     $('.diaDeLosMuertos').hover(function() {
-        $('.folio.title').text("// Dia De Los Muertos");
+        $('.folio.titleD').text("// Dia De Los Muertos");
     });
     $('.hardWogLife').hover(function() {
-        $('.folio.title').text("// It's a Hard Wog Life");
+        $('.folio.titleD').text("// It's a Hard Wog Life");
     });
     $('.herschelListen').hover(function() {
-        $('.folio.title').text("// Herschel Listen");
+        $('.folio.titleD').text("// Herschel Listen");
     });
     $('.interventionOfSpace').hover(function() {
-        $('.folio.title').text("// Intervention of Space");
+        $('.folio.titleD').text("// Intervention of Space");
     });
     $('.portamiVia').hover(function() {
-        $('.folio.title').text("// Portami Via");
+        $('.folio.titleD').text("// Portami Via");
     });
     $('.stressedOut').hover(function() {
-        $('.folio.title').text("// Stressed Out");
+        $('.folio.titleD').text("// Stressed Out");
     });
     $('.topOfEurope').hover(function() {
-        $('.folio.title').text("// Top of Europe");
+        $('.folio.titleD').text("// Top of Europe");
     });
     $('.touchDesignerInClass').hover(function() {
-        $('.folio.title').text("// Touch Designer In Class");
+        $('.folio.titleD').text("// Touch Designer In Class");
     });
     $('.ugh').hover(function() {
-        $('.folio.title').text("// UGH!");
+        $('.folio.titleD').text("// UGH!");
     });
     $('.visualiserCircle').hover(function() {
-        $('.folio.title').text("// Visualiser");
+        $('.folio.titleD').text("// Visualiser");
     });
 
   });
