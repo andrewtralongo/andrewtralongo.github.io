@@ -115,7 +115,6 @@ body {
 { .folioContainer {flex-direction: column} }
 
 .folio.info {
-    padding-left: 3%;
     padding: 3%;
     font-family: 'Space Mono', monospace;
     font-size: 0.75em;
@@ -150,6 +149,10 @@ body {
 }
 @media only screen and (max-width : 375px)
 { .folio.grid {flex: 0 0 100%} }
+
+.thumbnail {flex: 0 0 33.33%}
+@media only screen and (max-width : 375px)
+{ .thumbnail {flex: 0 0 100%} }
 
 .thumbnail img {
     max-width: 100%;
