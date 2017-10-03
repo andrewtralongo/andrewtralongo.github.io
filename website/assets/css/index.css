@@ -113,7 +113,7 @@ body {
     display: flex;
 }
 @media only screen and (max-width : 375px)
-{ .folioContainer {flex-direction: column} }
+{ .folioContainer {height: 100%;flex-direction: column} }
 
 .folio.info {
     padding: 3%;
@@ -121,6 +121,11 @@ body {
     font-size: 0.75em;
     color: #f2f2f2;
 }
+@media only screen and (max-width : 375px)
+{ .folio.info {
+    font-size: 1em;
+    padding-top: 10%;
+    padding-bottom: 10%} }
 
 .folio.titleD {
     margin-top: 10%;
@@ -131,10 +136,10 @@ body {
 @media only screen and (max-width : 375px)
 { .folio.titleD {display: none} }
 .folio.titleM {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    width: 100%;
+    padding: 10%;
     font-family: 'Space Mono', monospace;
-    font-size: 1.75em;
+    font-size: 1.25em;
     color: white;
     display: none;
 }
@@ -146,14 +151,16 @@ body {
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
 }
 @media only screen and (max-width : 375px)
-{ .folio.grid {flex: 0 0 100%;flex-direction: column} }
+{ .folio.grid {flex: 0 0 100%}
 
 .thumbnail {flex: 0 0 33.33%}
 @media only screen and (max-width : 375px)
-{ .thumbnail {flex: 0 0 100%} }
+{ .thumbnail {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column} }
 
 .thumbnail img {
     max-width: 100%;
