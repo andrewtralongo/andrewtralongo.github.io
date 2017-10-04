@@ -156,6 +156,7 @@ body {
 { .folioGrid {flex: 0 0 100%} }
 
 .thumbnail {flex: 0 0 33.33%}
+.thumbnail:hover {cursor: pointer}
 @media only screen and (max-width : 375px)
 { .thumbnail {
     flex: 0 0 100%;
@@ -177,5 +178,4 @@ body {
 .thumbnail img:hover {
     filter: none;
     -webkit-filter: grayscale(0);
-    cursor: pointer;
 }

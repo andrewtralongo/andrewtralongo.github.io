@@ -1,0 +1,129 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    background: rgb(10,10,10);
+}
+
+a {
+    text-decoration: inherit; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: rgb(225,225,225);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+.mani.title {
+    margin: auto;
+}
+
+.mani.container {
+    width: 55vmin;
+    margin: auto;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    position: relative;
+}
+
+.mani.year {
+    display: inline-block;
+}
+
+.mani.column {
+    display: inline-block;
+    float: right;
+    margin-left: 5vw;
+    vertical-align: top;
+}
+
+
+/*-- BALLS --*/
+
+.ball.container {
+    height: 55vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.ball {
+    height: 19%;
+    width: 19%;
+    transition: all 1.5s;
+}
+
+/*-- ROW 1 --*/
+
+.rOne-trans {
+    border-radius: 45px;
+}
+
+.rOne-bg {
+    background: hsl(53, 100%, 51%);
+}
+
+/*-- ROW 2 --*/
+
+.rTwo-trans {
+    border-radius: 35px;
+}
+
+.rTwo-bg {
+    background: hsl(51, 100%, 51%);
+}
+
+/*-- ROW 3 --*/
+
+.rThree-trans {
+    border-radius: 25px;
+}
+
+.rThree-bg {
+    background: hsl(49, 100%, 51%);
+}
+
+/*-- ROW 4 --*/
+
+.rFour-trans {
+    border-radius: 15px;
+}
+
+.rFour-bg {
+    background: hsl(47, 100%, 51%);
+}
+
+/*-- ROW 5 --*/
+
+.rFive-trans {
+    border-radius: 7px;
+}
+
+.rFive-bg {
+    background: hsl(45, 100%, 51%);
+}
+
+/*-- FOOTER --*/
+
+.footer {color: #fff}

@@ -1,0 +1,241 @@
+/*-- NAVIGATION --*/
+
+.nav.container{
+    padding-top: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.navBorder {
+    border: 2px solid peachpuff;
+}
+
+.navTrans {
+    transition: 1s ease;
+}
+        
+.navIndex{
+    height: 96px;
+    width: 100px;
+    text-align: center;
+    line-height: 96px;
+    font-size: 2.5em;
+    color: peachpuff;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+}
+
+.navIndex:hover {
+    background: peachpuff;
+    color: white;
+    font-size: 2.75em;
+}
+
+/*-- navp1 --*/
+
+.navp1-circle1 {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+}
+
+.navp1-circle1Hov {
+    background: #bfbfbf;
+    border-color: white;
+}
+
+.navp1-circle2 {
+    height: 73px;
+    width: 73px;
+    margin: auto;
+    transform: translateY(10px);
+    border-radius: 50%;
+    position: relative;
+}
+.navp1-circle2Hov {
+    background: #333333;
+    border-color: white;
+}
+
+.navp1-circle3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    transform: translateY(10px);
+}
+.navp1-circle3Hov {
+    background: #d31515;
+    border-color: white;
+}
+
+.navp1-circle4 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    transform: translateY(10px);
+}
+.navp1-circle4Hov {
+    background: #ed0909;
+    border-color: white;
+}
+
+/*-- navp2 --*/
+
+.navp2-container{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.navp2-container:hover{
+    animation: p2rotate 5s infinite linear;
+}
+
+.navp2-circleL{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.navp2-circleLHov {
+    background: #4baa63;
+    border-color: white;
+}
+
+.navp2-circleR{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.navp2-circleRHov {
+    background: #50ba6c;
+    border-color: white;
+}
+
+/*-- navp3 --*/
+
+.navp3-container{
+    height: 96px;
+    width: 96px;
+    margin-left: 25px;
+}
+
+.navp3-container:hover{
+    background: rgb(17,17,17);
+    border-color: white;
+}
+
+.navp3-container:hover div {
+    background: rgba(14,100,211,0.15);
+    border-color: white;
+}
+
+.navp3-box2{
+    height: 73px;
+    width: 73px;
+    position: relative;
+    margin: auto;
+    transform: translateY(10px);
+}
+
+.navp3-box3{
+    height: 48px;
+    width: 48px;
+    position: relative;
+    margin: auto;
+    transform: translateY(10px);
+}
+
+.navp3-box4{
+    height: 23px;
+    width: 23px;
+    position: relative;
+    margin: auto;
+    transform: translateY(10px);
+}
+
+/*-- navp4 --*/
+
+.navp4-container{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.navp4-container:hover{
+    background: hsl(47, 100%, 51%);
+    border-radius: 25%;
+    border-color: white;
+}
+
+/*-- navp5 --*/
+
+.navp5-container{
+    height: 96px;
+    width: 96px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.navp5-container:hover{
+    background: rgb(224, 51, 51);
+    border-color: white;
+}
+
+.navp5-boxHov {
+    background: white;
+    border-color: white;
+}
+.navp5-L {
+    height: 70px;
+    width: 30px;
+    transform: translateY(12px);
+}
+.navp5-Ltrans {
+    transform: translateY(0px);
+    border-color: white;
+}
+
+.navp5-R {
+    height: 70px;
+    width: 30px;
+    transform: translateY(12px);
+}
+.navp5-Rtrans {
+    transform: translateY(24px);
+    border-color: white;
+}
+
+/*-- FOOTER --*/
+
+.footer {
+    opacity: 0.5;
+    transition: 0.5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1em;
+}
+.footer:hover {opacity: 1}
+.footer img{width: 25px}
+
+/*-- ANIMATIONS --*/
+
+@keyframes p2rotate {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}

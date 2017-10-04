@@ -1,0 +1,102 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(224, 51, 51);
+}
+
+a {
+    text-decoration: inherit; 
+}
+
+.content-container {
+    width: 725px;
+    height: 50vh;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+/*-- RECTANGLES --*/
+
+.rect {
+    width: 8%;
+    height: 25%;
+    background: white;
+    opacity: 0.5;
+    margin-right: 1px;
+    transition: 2s;
+}
+.rect:hover{cursor: pointer}
+.recttrans {
+    opacity: 1;
+}
+.rect1trans {transform: translateY(100%)}
+.rect2trans {transform: translateY(78%)}
+.rect3trans {transform: translateY(56%)}
+.rect4trans {transform: translateY(34%)}
+.rect5trans {transform: translateY(12%)}
+.rect6trans{transform: translateY(0%)}
+.rect7trans {transform: translateY(-12%)}
+.rect8trans {transform: translateY(-34%)}
+.rect9trans {transform: translateY(-56%)}
+.rect10trans {transform: translateY(-78%)}
+.rect11trans {transform: translateY(-100%)}
+
+
+
+/* -- TEXT -- */
+
+.title-container {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle-container {
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    border-bottom: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.songTxt {
+    width: 175px;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    transition: all 1s;
+    font-size: 1em;
+}
+
+.mani {
+    height: 100%;
+    padding: 5px;
+    font-size: 1em;
+    float: left;
+    margin-left: 25px;
+    padding-top: 5px;
+    color: white;
+}
+
+/*-- FOOTER --*/
+
+.footer {color: #fff}
