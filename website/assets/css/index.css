@@ -9,9 +9,9 @@
 }
 
 body {
-    background-color: #161616;
     background: url(../images/staticGif.gif) no-repeat center center fixed;
     background-size: cover;
+    background-color: #161616;
 }
 
 /* --FLEX COLUMNS-- */
@@ -129,12 +129,22 @@ body {
 
 .folioTitleD {
     margin-top: 10%;
-    font-family: 'Space Mono', monospace;
-    font-size: 1.75em;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 2.5em;
     color: white;
 }
 @media only screen and (max-width : 375px)
 { .folioTitleD {display: none} }
+
+.folioTags {
+    margin-top: 3%;
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    color: white;
+}
+@media only screen and (max-width : 375px)
+{ .folioTags {display: none} }
+
 .folioTitleM {
     width: 100%;
     padding: 10%;

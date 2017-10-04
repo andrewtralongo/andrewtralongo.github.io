@@ -10,8 +10,6 @@ $(document).ready(function() {
     $('.nav_all').click(function(event) {
       $('.item').removeClass('hide');
       $('.item').addClass('show');
-        
-      $('.item').removeClass('colFilter');
     });
 
     $('.nav_animal').click(function(event) {
@@ -20,8 +18,6 @@ $(document).ready(function() {
 
       $('.item.animal').removeClass('hide');
       $('.item.animal').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_promo').click(function(event) {
@@ -30,8 +26,6 @@ $(document).ready(function() {
 
       $('.item.promo').removeClass('hide');
       $('.item.promo').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
 
@@ -41,8 +35,6 @@ $(document).ready(function() {
 
       $('.item.deter').removeClass('hide');
       $('.item.deter').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_capt').click(function(event) {
@@ -51,8 +43,6 @@ $(document).ready(function() {
 
       $('.item.capt').removeClass('hide');
       $('.item.capt').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
     
     $('.nav_anal').click(function(event) {
@@ -61,8 +51,6 @@ $(document).ready(function() {
 
       $('.item.anal').removeClass('hide');
       $('.item.anal').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_layer').click(function(event) {
@@ -71,8 +59,6 @@ $(document).ready(function() {
 
       $('.item.layer').removeClass('hide');
       $('.item.layer').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_act').click(function(event) {
@@ -81,8 +67,6 @@ $(document).ready(function() {
 
       $('.item.act').removeClass('hide');
       $('.item.act').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_nature').click(function(event) {
@@ -91,8 +75,6 @@ $(document).ready(function() {
 
       $('.item.nature').removeClass('hide');
       $('.item.nature').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_help').click(function(event) {
@@ -101,8 +83,6 @@ $(document).ready(function() {
 
       $('.item.help').removeClass('hide');
       $('.item.help').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
 
     $('.nav_impair').click(function(event) {
@@ -111,8 +91,6 @@ $(document).ready(function() {
 
       $('.item.impair').removeClass('hide');
       $('.item.impair').addClass('show');
-        
-      $('.item').addClass('colFilter');
     });
     
   });

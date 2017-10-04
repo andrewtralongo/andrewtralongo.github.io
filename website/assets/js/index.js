@@ -155,46 +155,73 @@ $(document).ready(function() {
     
     
     $('.5posters').hover(function() {
-        $('.folioTitleD').text("// 5 Posters");
+        $('.folioTitleD').text("5 Posters");
+        $('.folioTags').html("// Web");
     });
+    
     $('.adornment').hover(function() {
-        $('.folioTitleD').text("// Adornment");
+        $('.folioTitleD').text("Adornment");
+        $('.folioTags').html("// Print<br>// Photography");
     });
+    
     $('.aesop').hover(function() {
-        $('.folioTitleD').text("// Aesop");
+        $('.folioTitleD').text("Aesop");
+        $('.folioTags').html("// UX<br>// Theory");
     });
+    
     $('.cinqueTerre').hover(function() {
-        $('.folioTitleD').text("// Cinque Terre");
+        $('.folioTitleD').text("Cinque Terre");
+        $('.folioTags').html("// Photography");
     });
+    
     $('.diaDeLosMuertos').hover(function() {
-        $('.folioTitleD').text("// Dia De Los Muertos");
+        $('.folioTitleD').text("Dia De Los Muertos");
+        $('.folioTags').html("// Print<br>// Photograpy");
     });
+    
     $('.hardWogLife').hover(function() {
-        $('.folioTitleD').text("// It's a Hard Wog Life");
+        $('.folioTitleD').text("It's a Hard Wog Life");
+        $('.folioTags').html("// Print<br>// Photography");
     });
+    
     $('.herschelListen').hover(function() {
-        $('.folioTitleD').text("// Herschel Listen");
+        $('.folioTitleD').text("Herschel Listen");
+        $('.folioTags').html("// UX");
     });
+    
     $('.interventionOfSpace').hover(function() {
-        $('.folioTitleD').text("// Intervention of Space");
+        $('.folioTitleD').text("Intervention of Space");
+        $('.folioTags').html("// Web");
     });
+    
     $('.portamiVia').hover(function() {
-        $('.folioTitleD').text("// Portami Via");
+        $('.folioTitleD').text("Portami Via");
+        $('.folioTags').html("// UX");
     });
+    
     $('.stressedOut').hover(function() {
-        $('.folioTitleD').text("// Stressed Out");
+        $('.folioTitleD').text("Stressed Out");
+        $('.folioTags').html("// Photography");
     });
+    
     $('.topOfEurope').hover(function() {
-        $('.folioTitleD').text("// Top of Europe");
+        $('.folioTitleD').text("Top of Europe");
+        $('.folioTags').html("// UX");
     });
+    
     $('.touchDesignerInClass').hover(function() {
-        $('.folioTitleD').text("// Touch Designer In Class");
+        $('.folioTitleD').text("Touch Designer In Class");
+        $('.folioTags').html("// Video");
     });
+    
     $('.ugh').hover(function() {
-        $('.folio.titleD').text("// UGH!");
+        $('.folioTitleD').text("UGH!");
+        $('.folioTags').html("// Print");
     });
+    
     $('.visualiserCircle').hover(function() {
-        $('.folioTitleD').text("// Visualiser");
+        $('.folioTitleD').text("Visualiser");
+        $('.folioTags').html("// UX");
     });
 
   });
