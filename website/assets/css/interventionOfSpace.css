@@ -50,10 +50,12 @@ q {
 }
 
 .spacer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item { 
-    height: 13vmin;
 }
 
 @media only screen 
