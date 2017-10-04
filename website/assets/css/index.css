@@ -115,27 +115,27 @@ body {
 @media only screen and (max-width : 375px)
 { .folioContainer {height: 100%;flex-direction: column} }
 
-.folio.info {
+.folioInfo {
     padding: 3%;
     font-family: 'Space Mono', monospace;
     font-size: 0.75em;
     color: #f2f2f2;
 }
 @media only screen and (max-width : 375px)
-{ .folio.info {
+{ .folioInfo {
     font-size: 1em;
     padding-top: 10%;
     padding-bottom: 10%} }
 
-.folio.titleD {
+.folioTitleD {
     margin-top: 10%;
     font-family: 'Space Mono', monospace;
     font-size: 1.75em;
     color: white;
 }
 @media only screen and (max-width : 375px)
-{ .folio.titleD {display: none} }
-.folio.titleM {
+{ .folioTitleD {display: none} }
+.folioTitleM {
     width: 100%;
     padding: 10%;
     font-family: 'Space Mono', monospace;
@@ -144,16 +144,16 @@ body {
     display: none;
 }
 @media only screen and (max-width : 375px)
-{ .folio.titleM {display: block} }
+{ .folioTitleM {display: block} }
 
-.folio.grid {
+.folioGrid {
     height: 100%;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
 }
 @media only screen and (max-width : 375px)
-{ .folio.grid {flex: 0 0 100%}
+{ .folioGrid {flex: 0 0 100%} }
 
 .thumbnail {flex: 0 0 33.33%}
 @media only screen and (max-width : 375px)
@@ -169,6 +169,11 @@ body {
     -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
     transition: 0.5s ease;
 }
+@media only screen and (max-width : 375px)
+{ .thumbnail img {
+    filter: none; /* IE5+ */
+    -webkit-filter: none; /* Webkit Nightlies & Chrome Canary */} }
+
 .thumbnail img:hover {
     filter: none;
     -webkit-filter: grayscale(0);

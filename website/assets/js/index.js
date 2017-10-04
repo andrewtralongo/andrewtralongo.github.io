@@ -155,46 +155,46 @@ $(document).ready(function() {
     
     
     $('.5posters').hover(function() {
-        $('.folio.titleD').text("// 5 Posters");
+        $('.folioTitleD').text("// 5 Posters");
     });
     $('.adornment').hover(function() {
-        $('.folio.titleD').text("// Adornment");
+        $('.folioTitleD').text("// Adornment");
     });
     $('.aesop').hover(function() {
-        $('.folio.titleD').text("// Aesop");
+        $('.folioTitleD').text("// Aesop");
     });
     $('.cinqueTerre').hover(function() {
-        $('.folio.titleD').text("// Cinque Terre");
+        $('.folioTitleD').text("// Cinque Terre");
     });
     $('.diaDeLosMuertos').hover(function() {
-        $('.folio.titleD').text("// Dia De Los Muertos");
+        $('.folioTitleD').text("// Dia De Los Muertos");
     });
     $('.hardWogLife').hover(function() {
-        $('.folio.titleD').text("// It's a Hard Wog Life");
+        $('.folioTitleD').text("// It's a Hard Wog Life");
     });
     $('.herschelListen').hover(function() {
-        $('.folio.titleD').text("// Herschel Listen");
+        $('.folioTitleD').text("// Herschel Listen");
     });
     $('.interventionOfSpace').hover(function() {
-        $('.folio.titleD').text("// Intervention of Space");
+        $('.folioTitleD').text("// Intervention of Space");
     });
     $('.portamiVia').hover(function() {
-        $('.folio.titleD').text("// Portami Via");
+        $('.folioTitleD').text("// Portami Via");
     });
     $('.stressedOut').hover(function() {
-        $('.folio.titleD').text("// Stressed Out");
+        $('.folioTitleD').text("// Stressed Out");
     });
     $('.topOfEurope').hover(function() {
-        $('.folio.titleD').text("// Top of Europe");
+        $('.folioTitleD').text("// Top of Europe");
     });
     $('.touchDesignerInClass').hover(function() {
-        $('.folio.titleD').text("// Touch Designer In Class");
+        $('.folioTitleD').text("// Touch Designer In Class");
     });
     $('.ugh').hover(function() {
         $('.folio.titleD').text("// UGH!");
     });
     $('.visualiserCircle').hover(function() {
-        $('.folio.titleD').text("// Visualiser");
+        $('.folioTitleD').text("// Visualiser");
     });
 
   });
