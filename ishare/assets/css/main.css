@@ -106,7 +106,10 @@ q:before,q:after{content:''}
 .post.icon {
     width: 125px;
     height: 125px;
-    border: 2px solid #bfbfbf;
+}
+.post.icon img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .post.titleTxt {
