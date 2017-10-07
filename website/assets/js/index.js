@@ -141,7 +141,6 @@ $(document).ready(function() {
 //    5posters
 //    adornment  
 //    aesop
-//    cinqueTerre
 //    diaDeLosMuertos
 //    herschelListen
 //    hardWogLife
@@ -167,11 +166,6 @@ $(document).ready(function() {
     $('.aesop').hover(function() {
         $('.folioTitleD').text("Aesop");
         $('.folioTags').html("// UX<br>// Theory");
-    });
-    
-    $('.cinqueTerre').hover(function() {
-        $('.folioTitleD').text("Cinque Terre");
-        $('.folioTags').html("// Photography");
     });
     
     $('.diaDeLosMuertos').hover(function() {

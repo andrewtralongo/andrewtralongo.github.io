@@ -9,14 +9,14 @@ $(document).ready(function() {
 //    -- AUDIO FILES --
     
     var Breezeblocks = document.createElement('audio');
-        Breezeblocks.setAttribute('src', '../audio/5posters/Breezeblocks.mp3');
+        Breezeblocks.setAttribute('src', '../assets/audio/5posters/Breezeblocks.mp3');
         $.get();
         Breezeblocks.addEventListener("load", function() {
           Breezeblocks.play();
         }, true);
     
     var DoIWannaKnow = document.createElement('audio');
-        DoIWannaKnow.setAttribute('src', '../audio/5posters/DoIWannaKnow.mp3');
+        DoIWannaKnow.setAttribute('src', '../assets/audio/5posters/DoIWannaKnow.mp3');
         $.get();
         DoIWannaKnow.addEventListener("load", function() {
           DoIWannaKnow.play();
@@ -26,63 +26,63 @@ $(document).ready(function() {
 //    When all files are used, website doesn't work, so left in in case of solution found. This is why further below lines of code are commented.
     
     var FeelsLikeWeOnlyGoBackwards = document.createElement('audio');
-        FeelsLikeWeOnlyGoBackwards.setAttribute('src', '../audio/5posters/FeelsLikeWeOnlyGoBackwards.mp3');
+        FeelsLikeWeOnlyGoBackwards.setAttribute('src', '../assets/audio/5posters/FeelsLikeWeOnlyGoBackwards.mp3');
         $.get();
         FeelsLikeWeOnlyGoBackwards.addEventListener("load", function() {
           FeelsLikeWeOnlyGoBackwards.play();
         }, true);
     
     var Ghosts = document.createElement('audio');
-        Ghosts.setAttribute('src', '../audio/5posters/Ghosts.mp3');
+        Ghosts.setAttribute('src', '../assets/audio/5posters/Ghosts.mp3');
         $.get();
         Ghosts.addEventListener("load", function() {
           Ghosts.play();
         }, true);
     
     var GotToGiveItUp = document.createElement('audio');
-        GotToGiveItUp.setAttribute('src', '../audio/5posters/GotToGiveItUp.mp3');
+        GotToGiveItUp.setAttribute('src', '../assets/audio/5posters/GotToGiveItUp.mp3');
         $.get();
         GotToGiveItUp.addEventListener("load", function() {
           GotToGiveItUp.play();
         }, true);
     
     var JokerAndTheThief = document.createElement('audio');
-        JokerAndTheThief.setAttribute('src', '../audio/5posters/JokerAndTheThief.mp3');
+        JokerAndTheThief.setAttribute('src', '../assets/audio/5posters/JokerAndTheThief.mp3');
         $.get();
         JokerAndTheThief.addEventListener("load", function() {
           JokerAndTheThief.play();
         }, true);
     
     var MeAndMrJones = document.createElement('audio');
-        MeAndMrJones.setAttribute('src', '../audio/5posters/MeAndMrJones.mp3');
+        MeAndMrJones.setAttribute('src', '../assets/audio/5posters/MeAndMrJones.mp3');
         $.get();
         MeAndMrJones.addEventListener("load", function() {
           MeAndMrJones.play();
         }, true);
     
     var TheBoysAreBackInTown = document.createElement('audio');
-        TheBoysAreBackInTown.setAttribute('src', '../audio/5posters/TheBoysAreBackInTown.mp3');
+        TheBoysAreBackInTown.setAttribute('src', '../assets/audio/5posters/TheBoysAreBackInTown.mp3');
         $.get();
         TheBoysAreBackInTown.addEventListener("load", function() {
           TheBoysAreBackInTown.play();
         }, true);
     
     var TheWolf = document.createElement('audio');
-        TheWolf.setAttribute('src', '../audio/5posters/TheWolf.mp3');
+        TheWolf.setAttribute('src', '../assets/audio/5posters/TheWolf.mp3');
         $.get();
         TheWolf.addEventListener("load", function() {
           TheWolf.play();
         }, true);
     
     var VCR = document.createElement('audio');
-        VCR.setAttribute('src', '../audio/5posters/VCR.mp3');
+        VCR.setAttribute('src', '../assets/audio/5posters/VCR.mp3');
         $.get();
         VCR.addEventListener("load", function() {
           VCR.play();
         }, true);
     
     var TouchIt_Technologic = document.createElement('audio');
-        TouchIt_Technologic.setAttribute('src', '../audio/5posters/TouchIt_Technologic.mp3');
+        TouchIt_Technologic.setAttribute('src', '../assets/audio/5posters/TouchIt_Technologic.mp3');
         $.get();
         TouchIt_Technologic.addEventListener("load", function() {
           TouchIt_Technologic.play();
