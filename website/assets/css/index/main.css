@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+body {
+    background: url(../../images/index/staticBG.gif) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #161616;
+}
+
+/* --FLEX COLUMNS-- */
+
+.col1of2{flex: 0 0 50%}
+
+.col1of3{flex: 0 0 33.33%}
+
+.col2of3{flex: 0 0 66.66%}
+
+.flexCent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

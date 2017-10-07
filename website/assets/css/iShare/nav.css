@@ -1,0 +1,48 @@
+.header {
+    height: 200px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 5vw;
+    
+    background: #d80000;
+    box-shadow: 0 5px 20px #cccccc;
+    
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    color: #f2f2f2;
+    font-size: 2.75em;
+}
+.headerName {
+    height: 25px;
+    position: relative;
+    float: right;
+    bottom: 0;
+    font-size: 0.75em;
+}
+.headerName img{height: 25px}
+
+.navContainer {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 2vw;
+    
+    background: #f2f2f2;
+    box-shadow: 0 -5px 20px #cccccc;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav.item {
+    height: 75%;
+    width: 75%;
+    flex: 0 0 10%;
+    
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+.nav.item img {height: 100%; width: 100%}

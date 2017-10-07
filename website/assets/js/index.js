@@ -144,6 +144,8 @@ $(document).ready(function() {
 //    diaDeLosMuertos
 //    herschelListen
 //    hardWogLife
+//    interventionOfSpace
+//    iShare
 //    portamiVia
 //    stressedOut
 //    topOfEurope
@@ -170,7 +172,7 @@ $(document).ready(function() {
     
     $('.diaDeLosMuertos').hover(function() {
         $('.folioTitleD').text("Dia De Los Muertos");
-        $('.folioTags').html("// Print<br>// Photograpy");
+        $('.folioTags').html("// Print");
     });
     
     $('.hardWogLife').hover(function() {
@@ -182,10 +184,14 @@ $(document).ready(function() {
         $('.folioTitleD').text("Herschel Listen");
         $('.folioTags').html("// UX");
     });
-    
     $('.interventionOfSpace').hover(function() {
         $('.folioTitleD').text("Intervention of Space");
         $('.folioTags').html("// Web");
+    });
+    
+    $('.iShare').hover(function() {
+        $('.folioTitleD').text("I share therefore I am");
+        $('.folioTags').html("// Web<br>// Theory");
     });
     
     $('.portamiVia').hover(function() {

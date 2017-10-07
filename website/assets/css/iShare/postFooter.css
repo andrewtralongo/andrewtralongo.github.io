@@ -1,0 +1,30 @@
+.post.footer {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-top: 2px solid #bfbfbf;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.post.footer.space {
+    width: 100px;
+    border: none;
+}
+
+.post.comments {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    padding-top: 40px;
+    border-top: 2px solid #bfbfbf;
+}
+
+.post.comment {
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+.post.comment.final{margin-bottom: 0}
+
+.post.comment p {width: calc(100% - 125px - 5vw)}
