@@ -19,6 +19,10 @@ h1 {
     font-size: 2.5em;
     color: #f5f3e4;
 }
+@media only screen and (max-width : 375px)
+{ h1 {
+    height: 100%;
+    flex-direction: column} }
 
 h2 {
     font-family: 'Space Mono', monospace;

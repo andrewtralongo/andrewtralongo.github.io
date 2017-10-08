@@ -18,12 +18,16 @@
     padding-bottom: 8%;
     border-bottom: 1px solid #f5f3e4;
 }
+@media only screen and (max-width : 375px)
+{ .info {
+    padding-bottom: 0;
+    border-bottom: none} }
 
-.titleD {
+.title {
     margin-top: 10%;
 }
 @media only screen and (max-width : 375px)
-{ .titleD {display: none} }
+{ .title.index {display: none} }
 
 .tags {
     margin-top: 3%;
@@ -31,7 +35,7 @@
     font-size: 1em;
 }
 @media only screen and (max-width : 375px)
-{ .tags {display: none} }
+{ .tags.index {display: none} }
 
 .desc {
     width: 100%;

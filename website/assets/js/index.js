@@ -156,71 +156,71 @@ $(document).ready(function() {
     
     
     $('.5posters').hover(function() {
-        $('.titleD').html("<h1>5 Posters</h1>");
+        $('.title').html("<h1>5 Posters</h1>");
         $('.tags').html("<h2>// Web</h2>");
     });
     
     $('.adornment').hover(function() {
-        $('.titleD').html("<h1>Adornment</h1>");
+        $('.title').html("<h1>Adornment</h1>");
         $('.tags').html("<h2>// Print<br>// Photography</h2>");
     });
     
     $('.aesop').hover(function() {
-        $('.titleD').html("<h1>Aesop</h1>");
+        $('.title').html("<h1>Aesop</h1>");
         $('.tags').html("<h2>// UX<br>// Theory</h2>");
     });
     
     $('.diaDeLosMuertos').hover(function() {
-        $('.titleD').html("<h1>Día De Los Muertos</h1>");
+        $('.title').html("<h1>Día De Los Muertos</h1>");
         $('.tags').html("<h2>// Print</h2>");
     });
     
     $('.hardWogLife').hover(function() {
-        $('.titleD').html("<h1>It's a Hard Wog Life</h1>");
+        $('.title').html("<h1>It's a Hard Wog Life</h1>");
         $('.tags').html("<h2>// Print<br>// Photography</h2>");
     });
     
     $('.herschelListen').hover(function() {
-        $('.titleD').html("<h1>Herschel Listen</h1>");
+        $('.title').html("<h1>Herschel Listen</h1>");
         $('.tags').html("<h2>// UX</h2>");
     });
     $('.interventionOfSpace').hover(function() {
-        $('.titleD').html("<h1>Intervention of Space</h1>");
+        $('.title').html("<h1>Intervention of Space</h1>");
         $('.tags').html("<h2>// Web</h2>");
     });
     
     $('.iShare').hover(function() {
-        $('.titleD').html("<h1>I share therefore I am</h1>");
+        $('.title').html("<h1>I share therefore I am</h1>");
         $('.tags').html("<h2>// Web<br>// Theory</h2>");
     });
     
     $('.portamiVia').hover(function() {
-        $('.titleD').html("<h1>Portami Via</h1>");
+        $('.title').html("<h1>Portami Via</h1>");
         $('.tags').html("<h2>// UX</h2>");
     });
     
     $('.stressedOut').hover(function() {
-        $('.titleD').html("<h1>Stressed Out</h1>");
+        $('.title').html("<h1>Stressed Out</h1>");
         $('.tags').html("<h2>// Photography</h2>");
     });
     
     $('.topOfEurope').hover(function() {
-        $('.titleD').html("<h1>Top of Europe</h1>");
+        $('.title').html("<h1>Top of Europe</h1>");
         $('.tags').html("<h2>// UX</h2>");
     });
     
     $('.touchDesignerInClass').hover(function() {
-        $('.titleD').html("<h1>TouchDesigner In Class</h1>");
+        $('.title').html("<h1>TouchDesigner In Class</h1>");
         $('.tags').html("<h2>// Video</h2>");
     });
     
     $('.ugh').hover(function() {
-        $('.titleD').html("<h1>UGH!</h1>");
+        $('.title').html("<h1>UGH!</h1>");
         $('.tags').html("<h2>// Print</h2>");
     });
     
     $('.visualiserCircle').hover(function() {
-        $('.titleD').html("<h1>Visualiser</h1>");
+        $('.title').html("<h1>Visualiser</h1>");
         $('.tags').html("<h2>// UX</h2>");
     });
 

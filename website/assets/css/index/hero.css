@@ -6,7 +6,7 @@
     position: relative;
 }
 @media only screen and (max-width : 375px)
-{ .txtContainer {height: 100vh} }
+{ .heroContainer {height: 100vh} }
 
 .cvr {
     width: 100%;
