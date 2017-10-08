@@ -27,4 +27,7 @@
 }
 .post.comment.final{margin-bottom: 0}
 
-.post.comment p {width: calc(100% - 125px - 5vw)}
+.post.comment p {
+    width: calc(100% - 125px - 5vw);
+    font-size: 2.5em;
+}
