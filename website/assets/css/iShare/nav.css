@@ -18,9 +18,9 @@
     position: relative;
     float: right;
     bottom: 0;
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
-.headerName img{height: 25px}
+.headerName img{height: 40px}
 
 .navContainer {
     height: 150px;
