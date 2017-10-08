@@ -156,72 +156,72 @@ $(document).ready(function() {
     
     
     $('.5posters').hover(function() {
-        $('.folioTitleD').text("5 Posters");
-        $('.folioTags').html("// Web");
+        $('.titleD').html("<h1>5 Posters</h1>");
+        $('.tags').html("<h2>// Web</h2>");
     });
     
     $('.adornment').hover(function() {
-        $('.folioTitleD').text("Adornment");
-        $('.folioTags').html("// Print<br>// Photography");
+        $('.titleD').html("<h1>Adornment</h1>");
+        $('.tags').html("<h2>// Print<br>// Photography</h2>");
     });
     
     $('.aesop').hover(function() {
-        $('.folioTitleD').text("Aesop");
-        $('.folioTags').html("// UX<br>// Theory");
+        $('.titleD').html("<h1>Aesop</h1>");
+        $('.tags').html("<h2>// UX<br>// Theory</h2>");
     });
     
     $('.diaDeLosMuertos').hover(function() {
-        $('.folioTitleD').text("Dia De Los Muertos");
-        $('.folioTags').html("// Print");
+        $('.titleD').html("<h1>Día De Los Muertos</h1>");
+        $('.tags').html("<h2>// Print</h2>");
     });
     
     $('.hardWogLife').hover(function() {
-        $('.folioTitleD').text("It's a Hard Wog Life");
-        $('.folioTags').html("// Print<br>// Photography");
+        $('.titleD').html("<h1>It's a Hard Wog Life</h1>");
+        $('.tags').html("<h2>// Print<br>// Photography</h2>");
     });
     
     $('.herschelListen').hover(function() {
-        $('.folioTitleD').text("Herschel Listen");
-        $('.folioTags').html("// UX");
+        $('.titleD').html("<h1>Herschel Listen</h1>");
+        $('.tags').html("<h2>// UX</h2>");
     });
     $('.interventionOfSpace').hover(function() {
-        $('.folioTitleD').text("Intervention of Space");
-        $('.folioTags').html("// Web");
+        $('.titleD').html("<h1>Intervention of Space</h1>");
+        $('.tags').html("<h2>// Web</h2>");
     });
     
     $('.iShare').hover(function() {
-        $('.folioTitleD').text("I share therefore I am");
-        $('.folioTags').html("// Web<br>// Theory");
+        $('.titleD').html("<h1>I share therefore I am</h1>");
+        $('.tags').html("<h2>// Web<br>// Theory</h2>");
     });
     
     $('.portamiVia').hover(function() {
-        $('.folioTitleD').text("Portami Via");
-        $('.folioTags').html("// UX");
+        $('.titleD').html("<h1>Portami Via</h1>");
+        $('.tags').html("<h2>// UX</h2>");
     });
     
     $('.stressedOut').hover(function() {
-        $('.folioTitleD').text("Stressed Out");
-        $('.folioTags').html("// Photography");
+        $('.titleD').html("<h1>Stressed Out</h1>");
+        $('.tags').html("<h2>// Photography</h2>");
     });
     
     $('.topOfEurope').hover(function() {
-        $('.folioTitleD').text("Top of Europe");
-        $('.folioTags').html("// UX");
+        $('.titleD').html("<h1>Top of Europe</h1>");
+        $('.tags').html("<h2>// UX</h2>");
     });
     
     $('.touchDesignerInClass').hover(function() {
-        $('.folioTitleD').text("Touch Designer In Class");
-        $('.folioTags').html("// Video");
+        $('.titleD').html("<h1>TouchDesigner In Class</h1>");
+        $('.tags').html("<h2>// Video</h2>");
     });
     
     $('.ugh').hover(function() {
-        $('.folioTitleD').text("UGH!");
-        $('.folioTags').html("// Print");
+        $('.titleD').html("<h1>UGH!</h1>");
+        $('.tags').html("<h2>// Print</h2>");
     });
     
     $('.visualiserCircle').hover(function() {
-        $('.folioTitleD').text("Visualiser");
-        $('.folioTags').html("// UX");
+        $('.titleD').html("<h1>Visualiser</h1>");
+        $('.tags').html("<h2>// UX</h2>");
     });
 
   });

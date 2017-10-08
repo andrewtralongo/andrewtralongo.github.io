@@ -1,0 +1,37 @@
+.project {
+    background: #f5f3e4;
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projectImg {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    
+    box-shadow: 0px 0px 10px #070707;
+}
+
+.projectImg img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.portrait {height: calc(100% - 10vw)}
+.landscape {width: calc(100% - 10vw)}
+
+.txtContainer {
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.txtContainer p {
+    color: #191919;
+    font-size: 0.85em;
+}
