@@ -51,3 +51,5 @@
     height: 25px;
     vertical-align: bottom;
 }
+
+iframe {display: block}

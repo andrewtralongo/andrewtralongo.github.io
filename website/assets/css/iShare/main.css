@@ -5,6 +5,7 @@
     line-height: inherit;
     color: inherit;
     text-decoration: inherit;
+    display: block;
 }
 
 body {

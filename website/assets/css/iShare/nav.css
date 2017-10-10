@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     padding: 5vw;
+    z-index: 1;
     
     background: #d80000;
     box-shadow: 0 5px 20px #cccccc;
@@ -28,6 +29,7 @@
     position: fixed;
     bottom: 0;
     padding: 2vw;
+    z-index: 1;
     
     background: #f2f2f2;
     box-shadow: 0 -5px 20px #cccccc;
