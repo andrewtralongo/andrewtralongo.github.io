@@ -111,8 +111,16 @@ $(document).ready(function() {
         $('.comments.projectedIDp5').toggleClass('hide');
     });
     
+    $('.footer.the1975insta1').click(function() {
+        $('.comments.the1975insta1').toggleClass('hide');
+    });
+    
     $('.footer.projectedIDp6').click(function() {
         $('.comments.projectedIDp6').toggleClass('hide');
+    });
+    
+    $('.footer.the1975insta2').click(function() {
+        $('.comments.the1975insta2').toggleClass('hide');
     });
     
     $('.footer.conc').click(function() {

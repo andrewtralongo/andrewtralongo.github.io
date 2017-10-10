@@ -18,6 +18,7 @@
 .projectImg img {
     max-height: 100%;
     max-width: 100%;
+    vertical-align: bottom;
 }
 .portrait {height: calc(100% - 10vw)}
 .landscape {width: calc(100% - 10vw)}
@@ -28,6 +29,8 @@
     margin-bottom: 3%;
 }
 
+.txtContainer.final{margin-bottom: 9%}
+
 .txtContainer p {
     color: #191919;
     font-size: 0.85em;
@@ -36,4 +39,15 @@
     text-decoration: underline;
     color: #191919;
     font-size: 1em;
+}
+
+.back {
+    width: 70px;
+    display: flex;
+    align-items: baseline;
+}
+.back:hover {text-decoration: underline}
+.back img{
+    height: 25px;
+    vertical-align: bottom;
 }
