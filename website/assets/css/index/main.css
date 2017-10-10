@@ -9,8 +9,9 @@
 }
 
 body {
-    background: url(../../images/index/staticBG.gif) no-repeat center center fixed;
+    background: url(../../images/index/staticBGsmall.gif) no-repeat center center fixed;
     background-size: cover;
+    image-rendering: pixelated;
     background-color: #161616;
 }
 

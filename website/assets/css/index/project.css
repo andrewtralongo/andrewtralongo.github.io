@@ -23,6 +23,8 @@
 .portrait {height: calc(100% - 10vw)}
 .landscape {width: calc(100% - 10vw)}
 
+iframe {display: block}
+
 .txtContainer {
     width: 75%;
     margin-top: 3%;
@@ -51,5 +53,3 @@
     height: 25px;
     vertical-align: bottom;
 }
-
-iframe {display: block}
