@@ -20,8 +20,8 @@
     max-width: 100%;
     vertical-align: bottom;
 }
-.portrait {height: calc(100% - 10vw)}
-.landscape {width: calc(100% - 10vw)}
+.portrait {height: calc(100% - 20vw)}
+.landscape {width: calc(100% - 20vw)}
 
 iframe {display: block}
 

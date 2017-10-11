@@ -12,6 +12,15 @@
     border: none;
 }
 
+.fLike{display: inline-block}
+.fLike.active h2{color: #d80000}
+.fComment.active h2{color: #d80000}
+
+.fComment {
+    display: inline-block;
+    margin-left: 100px;
+}
+
 .post.comments {
     width: 100%;
     margin-top: 40px;
