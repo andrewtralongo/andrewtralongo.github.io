@@ -11,4 +11,5 @@ background-color: #eaeaea;
 .result {
     width: 100vw;
     height: 100vh;
+    position: fixed;
 }
