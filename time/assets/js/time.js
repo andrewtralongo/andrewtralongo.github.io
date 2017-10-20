@@ -5,6 +5,10 @@ $(document).ready(function() {
   var oddMinute = ' ';
   var halfSecond = ' ';
   var halfMinute = ' ';
+  var fileNameDate = moment().format('M');
+  var fileNameTotal = 'https://andrewtralongo.github.io/time/' + fileNameDate + '.html';
+    
+    
 
 // Update time
   function update() {
