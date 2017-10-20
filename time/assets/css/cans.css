@@ -1,0 +1,69 @@
+.canContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.can {
+    height: 15%;
+    width: 10%;
+    margin: 20px;
+}
+
+.can.coke{
+    background: url(../images/cans/coke.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.coke.crushed {
+    background: url(../images/cans/cokeCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+
+.can.pepsi{
+    background: url(../images/cans/pepsi.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.pepsi.crushed {
+    background: url(../images/cans/pepsiCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+
+.can.fosters{
+    background: url(../images/cans/fosters.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.fosters.crushed {
+    background: url(../images/cans/fostersCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+
+.can.redBull{
+    background: url(../images/cans/redBull.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.redBull.crushed {
+    background: url(../images/cans/redBullCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+
+.can.mountainDew{
+    background: url(../images/cans/mountainDew.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.mountainDew.crushed {
+    background: url(../images/cans/mountainDewCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+
+.can.orange{
+    background: url(../images/cans/orange.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}
+.can.orange.crushed {
+    background: url(../images/cans/orangeCrushed.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;}

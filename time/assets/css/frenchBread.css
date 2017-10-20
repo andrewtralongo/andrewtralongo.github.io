@@ -1,0 +1,13 @@
+.imgCent {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCent img {
+    width: 75%;
+}

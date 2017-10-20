@@ -58,7 +58,7 @@ body {
 	height: 0;
     margin: auto;
 }
-.mediaWrapper iframe {
+.mediaWrapper iframe, .mediaWrapper video {
 	position: absolute;
 	top: 0;
 	left: 0;
