@@ -69,6 +69,11 @@ $(document).ready(function() {
     $('textarea#timeClasses').show();
   });
     
-      $.ajax({ url: fileNameTotal, success: function(result) { $('.result').html(result); } });    
+    
 
+});
+
+
+$(window).load(function(){
+      $.ajax({ url: fileNameTotal, success: function(result) { $('.result').html(result); } });    
 });
