@@ -9,6 +9,7 @@ $(document).ready(function() {
   var fileNameTotal = 'https://andrewtralongo.github.io/time/' + fileNameDate + '.html';
     
     
+    
 
 // Update time
   function update() {
@@ -67,5 +68,7 @@ $(document).ready(function() {
     clearInterval(intervalId);
     $('textarea#timeClasses').show();
   });
+    
+      $.ajax({ url: fileNameTotal, success: function(result) { $('.result').html(result); } });    
 
 });
