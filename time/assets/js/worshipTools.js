@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    
+    $.ajax({ url: 'http://andrewtralongo.github.io/time/pi.html', success: function(data) { alert(data); } });
 
     function toolS(){
     
