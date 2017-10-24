@@ -1,0 +1,74 @@
+.imgCent {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glow {
+    width: 50vmin;
+    height: 50vmin;
+    
+    background: radial-gradient(ellipse at center, rgba(255,216,0,1) 0%,rgba(77,65,0,0) 69%,rgba(0,0,0,0) 100%);
+    
+    animation: glow 3s linear infinite;
+}
+
+.tool {
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    
+    transform-style: preserve-3d;
+    animation: spin 7s linear infinite;
+}
+
+.crowbar {
+    background: url(../images/worshipTools/crowbar.png) no-repeat;
+    background-size: contain;}
+
+.drill {
+    background: url(../images/worshipTools/drill.png) no-repeat;
+    background-size: contain;}
+
+.hammer {
+    background: url(../images/worshipTools/hammer.png) no-repeat;
+    background-size: contain;}
+
+.saw {
+    background: url(../images/worshipTools/saw.png) no-repeat;
+    background-size: contain;}
+
+.screwdriver {
+    background: url(../images/worshipTools/screwdriver.png) no-repeat;
+    background-size: contain;}
+
+.spanner {
+    background: url(../images/worshipTools/spanner.png) no-repeat;
+    background-size: contain;}
+
+.spiritLevel {
+    background: url(../images/worshipTools/spiritLevel.png) no-repeat;
+    background-size: contain;}
+
+.tapeMeasure {
+    background: url(../images/worshipTools/tapeMeasure.png) no-repeat;
+    background-size: contain;}
+
+@keyframes glow {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.1)}
+  100% {transform: scale(1)}
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

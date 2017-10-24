@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: #eaeaea;
+}
+
+.result {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+<<<<<<< HEAD
+=======
+/*    background: red;*/
+>>>>>>> 068391ad539b559609b869c1af5d2e1240bc227d
+}

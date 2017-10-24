@@ -22,9 +22,6 @@ $(document).ready(function() {
           DoIWannaKnow.play();
         }, true);
     
-//    -- NOTE --
-//    When all files are used, website doesn't work, so left in in case of solution found. This is why further below lines of code are commented.
-    
     var FeelsLikeWeOnlyGoBackwards = document.createElement('audio');
         FeelsLikeWeOnlyGoBackwards.setAttribute('src', '../assets/audio/5posters/FeelsLikeWeOnlyGoBackwards.mp3');
         $.get();
