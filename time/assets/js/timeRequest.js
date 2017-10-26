@@ -62,6 +62,17 @@ $(document).ready(function() {
     $('.time').html(moment().format('D M'));
   };
 
-  update();     
+  update();
+
+// Add pause
+  $('button#pause').click(function(){
+    clearInterval(intervalId);
+    $('textarea#timeClasses').show();
+  });
+    
+$.ajax({
+          url: fileNameTotal,
+          success: function(result) { $('.result').html(result); }
+      });       
 
 });
