@@ -15,36 +15,36 @@ $(document).ready(function() {
 
 // Update time
   function update() {
-    var quarter = moment().quarter();
-    var momentSecond = moment().second();
-    var momentMinute = moment().minute();
-    var momentHour= moment().format('h').toLowerCase();
+//    var quarter = moment().quarter();
+//    var momentSecond = moment().second();
+//    var momentMinute = moment().minute();
+//    var momentHour= moment().format('h').toLowerCase();
     var momentDay = moment().format('dddd').toLowerCase();
     var momentMonth = moment().format('MMMM').toLowerCase();
-    var momentYear = moment().format('YYYY').toLowerCase();
-    var momentAMPM = moment().format('A').toLowerCase();
+//    var momentYear = moment().format('YYYY').toLowerCase();
+//    var momentAMPM = moment().format('A').toLowerCase();
 
-    function oddOrEvenS(momentSecond){
-      if(momentSecond % 2 === 0) {oddSecond = 'oddS';}
-      else {oddSecond = 'evenS';}
-    }
-
-    function oddOrEvenM(momentMinute){
-      if(momentMinute % 2 === 0) {oddMinute = 'evenM';}
-      else {oddMinute = 'oddM';}
-    }
-
-    function checkHalfSecond(momentSecond){
-      if(momentSecond < 30) {halfSecond = 'halfM';}
-      else {halfSecond = 'fullM';}
-    }
-
-    function checkHalfMinute(momentMinute){
-      if(momentMinute < 15) {halfMinute = 'quarterH';}
-      else if(momentMinute < 30){halfMinute = 'halfH';}
-      else if(momentMinute < 45){halfMinute = 'threequarterH';}
-      else {halfMinute = 'fullH';}
-    }
+//    function oddOrEvenS(momentSecond){
+//      if(momentSecond % 2 === 0) {oddSecond = 'oddS';}
+//      else {oddSecond = 'evenS';}
+//    }
+//
+//    function oddOrEvenM(momentMinute){
+//      if(momentMinute % 2 === 0) {oddMinute = 'evenM';}
+//      else {oddMinute = 'oddM';}
+//    }
+//
+//    function checkHalfSecond(momentSecond){
+//      if(momentSecond < 30) {halfSecond = 'halfM';}
+//      else {halfSecond = 'fullM';}
+//    }
+//
+//    function checkHalfMinute(momentMinute){
+//      if(momentMinute < 15) {halfMinute = 'quarterH';}
+//      else if(momentMinute < 30){halfMinute = 'halfH';}
+//      else if(momentMinute < 45){halfMinute = 'threequarterH';}
+//      else {halfMinute = 'fullH';}
+//    }
 
     // Check if odd, even, quaterpast
     oddOrEvenS(momentSecond);
@@ -52,7 +52,8 @@ $(document).ready(function() {
     oddOrEvenM(momentMinute);
     checkHalfMinute(momentMinute);
 
-    var timeAll = ['s' + momentSecond, 'm' + momentMinute, 'h' + momentHour, momentAMPM, momentDay, momentMonth, 'y' + momentYear, oddSecond, oddMinute, halfSecond, halfMinute];
+//    var timeAll = ['s' + momentSecond, 'm' + momentMinute, 'h' + momentHour, momentAMPM, momentDay, momentMonth, 'y' + momentYear, oddSecond, oddMinute, halfSecond, halfMinute];
+    var timeAll = [momentDay, momentMonth];
     var timeClass = timeAll.join(' ');
 
     // Add classes
