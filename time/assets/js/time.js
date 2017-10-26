@@ -63,7 +63,7 @@ $(document).ready(function() {
   };
 
   var intervalId = setInterval(update);
-  intervalId
+//  intervalId
 
 // Add pause
   $('button#pause').click(function(){
