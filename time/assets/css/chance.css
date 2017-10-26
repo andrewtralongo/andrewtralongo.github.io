@@ -1,0 +1,61 @@
+.time{
+    color: goldenrod;
+    background: url(../images/chance/felt.jpg) repeat;
+}
+
+.hide{display: none}
+
+.coin {
+    width: 17vmin;
+    height: 17vmin;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.coin img{width: 100%}
+.coinAni {
+    animation: fly 1.5s linear infinite;
+}
+
+.bgH {
+    background: url(../images/chance/coinH.png);
+    background-size: 100% 100%;
+}
+.bgT {
+    background: url(../images/chance/coinT.png);
+    background-size: 100% 100%;
+}
+
+.coinH, .coinT {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    backface-visibility: hidden;
+}
+
+.coinHAni {
+    animation: flip-head 1s linear 0s infinite alternate;
+}
+.coinTAni {
+    animation: flip-tail 1s linear 0s infinite alternate;
+}
+
+@keyframes flip-head {
+  0%, 100% { transform: rotateX(0deg); }
+  50% { transform: rotateX(180deg); }
+}
+
+@keyframes flip-tail {
+  0%, 100% { transform: rotateX(180deg); }
+  50% { transform: rotateX(0deg); }
+}
+
+@keyframes fly {
+    50% {transform: scale(4)}
+}

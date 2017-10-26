@@ -1,0 +1,28 @@
+.tableTop {
+    width: 100vw;
+    height: 25vh;
+    background: #f9f9f9;
+    border-top: 2px solid black;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.carton {
+    width: 25vw;
+    
+    position: absolute;
+    bottom: 15vh;
+    right: 25vw;
+}
+.carton img {width: 100%}
+
+.glass {
+    width: 30vw;
+    
+    position: absolute;
+    bottom: 15vh;
+    left: 10vw;
+}
+.glass img {width: 100%}

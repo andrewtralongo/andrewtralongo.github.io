@@ -7,6 +7,8 @@ $(document).ready(function() {
   var halfMinute = ' ';
   var fileNameDate = moment().format('M');
   var fileNameTotal = 'https://andrewtralongo.github.io/time/' + fileNameDate + '.html';
+    console.log(fileNameDate);
+    console.log(fileNameTotal);
     
     
     
@@ -69,11 +71,9 @@ $(document).ready(function() {
     $('textarea#timeClasses').show();
   });
     
-    
+$.ajax({
+          url: fileNameTotal,
+          success: function(result) { $('.result').html(result); }
+      });       
 
-});
-
-
-$(window).load(function(){
-      $.ajax({ url: fileNameTotal, success: function(result) { $('.result').html(result); } });    
 });

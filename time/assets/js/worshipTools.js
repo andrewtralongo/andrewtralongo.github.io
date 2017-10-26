@@ -51,7 +51,7 @@ $(document).ready(function() {
                         
     }, 7000);
                     
-    }, 5400);
+    }, 7000);
                 
     }, 0000);
     }
@@ -59,7 +59,7 @@ $(document).ready(function() {
     function toolSInit() {
         var myFunction = function() {
             toolS();
-            var toolSLength = 53400;
+            var toolSLength = 56000;
             setTimeout(myFunction, toolSLength);
         }
         myFunction();

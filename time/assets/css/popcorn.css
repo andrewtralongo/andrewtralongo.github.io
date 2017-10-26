@@ -1,0 +1,40 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 490px;
+    height: 490px;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popcorn {
+    height: 50px;
+    width: 50px;
+    
+    margin: 10px;
+    
+    background: url(../images/popcorn/cornKernal.png);
+    background-size: 100% 100%;
+}
+
+.popcorn.popped1 {background: url(../images/popcorn/popcorn1.png);
+background-size: 100% 100%;}
+.popcorn.popped2 {background: url(../images/popcorn/popcorn2.png);
+background-size: 100% 100%;}
+.popcorn.popped3 {background: url(../images/popcorn/popcorn3.png);
+background-size: 100% 100%;}
+.popcorn.popped4 {background: url(../images/popcorn/popcorn4.png);
+background-size: 100% 100%;}
+.popcorn.popped5 {background: url(../images/popcorn/popcorn5.png);
+background-size: 100% 100%;}
+.popcorn.popped6 {background: url(../images/popcorn/popcorn6.png);
+background-size: 100% 100%;}
+.popcorn.popped7 {background: url(../images/popcorn/popcorn7.png);
+background-size: 100% 100%;}

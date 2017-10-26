@@ -1,13 +1,26 @@
 body {background: #f5f3e4;}
 
 .aphabet {
-    width: 500px;
+    width: 600px;
     min-height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+/*    flex-direction: column;*/
     
     font-family: 'Cormorant Garamond', serif;
     font-size: 1em;
+}
+
+@media only screen 
+   and (max-width : 700px) {
+       .aphabet{
+           width: 80vw;
+           flex-direction: column}
+}
+
+h1 {
+    margin-right: 20px;
+    font-weight: normal;
 }

@@ -3,8 +3,10 @@
     margin-top: 40px;
     margin-bottom: 20px;
     border-top: 2px solid #bfbfbf;
-    padding-left: 20px;
     padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .post.footer.space {
@@ -12,14 +14,25 @@
     border: none;
 }
 
-.fLike{display: inline-block}
+.fLike {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .fLike.active h2{color: #d80000}
-.fComment.active h2{color: #d80000}
+.imgActive {color: #d80000}
+.fLike img {height: 55px}
 
 .fComment {
-    display: inline-block;
-    margin-left: 100px;
+    width: 200px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+.fComment.active h2{color: #d80000}
+.fComment img {height: 50px}
 
 .post.comments {
     width: 100%;

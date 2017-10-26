@@ -1,0 +1,61 @@
+.time {background: #8c8c8c}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ronald {
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    left: -25vmin;
+    top: 0;
+    
+    background: url(../images/fastFood/ronald.png) no-repeat;
+    background-size: contain;
+}
+
+.grimace {
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    left: -25vmin;
+    top: 25vmin;
+    
+    background: url(../images/fastFood/grimace.png) no-repeat;
+    background-size: contain;
+}
+
+.birdie {
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    left: -25vmin;
+    top: 50vmin;
+    
+    background: url(../images/fastFood/birdie.png) no-repeat;
+    background-size: contain;
+}
+
+.hamburglar {
+    width: 25vmin;
+    height: 25vmin;
+    position: absolute;
+    left: -25vmin;
+    top: 75vmin;
+    
+    background: url(../images/fastFood/hamburglar.png) no-repeat;
+    background-size: contain;
+}
+
+.runAni {animation: run 1s linear infinite}
+
+@keyframes run{
+    from{left: -25vmin}
+    to{left: calc(100vw + 25vmin)}
+}
