@@ -46,11 +46,11 @@ $(document).ready(function() {
 //      else {halfMinute = 'fullH';}
 //    }
 
-    // Check if odd, even, quaterpast
-    oddOrEvenS(momentSecond);
-    checkHalfSecond(momentSecond);
-    oddOrEvenM(momentMinute);
-    checkHalfMinute(momentMinute);
+//    // Check if odd, even, quaterpast
+//    oddOrEvenS(momentSecond);
+//    checkHalfSecond(momentSecond);
+//    oddOrEvenM(momentMinute);
+//    checkHalfMinute(momentMinute);
 
 //    var timeAll = ['s' + momentSecond, 'm' + momentMinute, 'h' + momentHour, momentAMPM, momentDay, momentMonth, 'y' + momentYear, oddSecond, oddMinute, halfSecond, halfMinute];
     var timeAll = [momentDay, momentMonth];
