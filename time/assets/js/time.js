@@ -62,7 +62,7 @@ $(document).ready(function() {
     $('.time').html(moment().format('D M'));
   };
 
-  var intervalId = setInterval(update);
+//  var intervalId = setInterval(update);
 //  intervalId
 
 // Add pause
