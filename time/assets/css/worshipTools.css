@@ -1,3 +1,28 @@
+.time {background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(179,220,237,1) 35%, rgba(90,189,219,1) 100%)}
+
+.cloud {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 10vh;
+    background: url(../images/worshipTools/cloud.png) no-repeat;
+    background-size: contain;
+}
+.cloud.left {
+    left: 15vw;
+    transform: rotate(20deg);}
+.cloud.leftTwo {
+    top: 5vh;
+    left: 7vw;
+    transform: rotate(10deg);}
+.cloud.right {
+    right: 15vw;
+    transform: rotate(-20deg);}
+.cloud.rightTwo {
+    top: 3vh;
+    right: 4vw;
+    transform: rotate(-10deg);}
+
 .imgCent {
     position: relative;
     width: 100vw;

@@ -4,9 +4,6 @@
     margin-bottom: 20px;
     border-top: 2px solid #bfbfbf;
     padding-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 .post.footer.space {
@@ -15,24 +12,24 @@
 }
 
 .fLike {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline-block;
+    margin-left: 30px;
 }
 .fLike.active h2{color: #d80000}
 .imgActive {color: #d80000}
 .fLike img {height: 55px}
 
 .fComment {
-    width: 200px;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline-block;
+    margin-left: 30px;
 }
 .fComment.active h2{color: #d80000}
 .fComment img {height: 50px}
+
+.material-icons {
+    font-size:50px !important;
+    transform: translateY(12px) !important;
+}
 
 .post.comments {
     width: 100%;

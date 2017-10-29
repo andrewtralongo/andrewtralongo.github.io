@@ -1,4 +1,6 @@
-.time {background: #8c8c8c}
+.time {
+    background: url(../images/fastFood/bench.jpeg);
+    background-size: cover;}
 
 .container {
     width: 100vw;

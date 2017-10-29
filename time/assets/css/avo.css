@@ -5,13 +5,15 @@
     background: url(../images/avoHTML.svg) no-repeat;
     background-size: cover;
     background-position: center;
+    transform-origin: center;
     animation: bgAni 2s linear infinite;
 }
 
 @keyframes bgAni {
-    0%{width: 100%;
-    height: 100vh;}
-    100%{width: 750%;
-    height: 750vh;}
-    /* transform origin */
+    0%{
+    }
+    100%{
+        transform: scale(7.5);
+        transform-origin: center;
+    }
 }
