@@ -1,4 +1,4 @@
-body {background: #f5f3e4}
+body {background: cyan}
 
 .joke {
     width: 500px;
@@ -9,6 +9,8 @@ body {background: #f5f3e4}
     align-items: center;
     
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 1em;
+    font-weight: bold;
+    color: fuchsia;
+    font-size: 2em;
     text-align: center;
 }
