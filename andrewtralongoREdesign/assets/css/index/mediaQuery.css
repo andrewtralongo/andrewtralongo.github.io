@@ -15,6 +15,7 @@
     section.design{
         width: 75vw;
         margin-left: 25vw;
+        background-position: center;
     }
     
     section.design.title {
@@ -30,11 +31,18 @@
        
     section.reverbImg {width: 100%}
        
-    section.photography{justify-content: center;}
+    section.photography{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        justify-content: center;
+    }
        
     section.photography.title {margin:auto}
        
-    section.containerMusicBlog {flex-direction: column}
+    section.containerMusicBlog {
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
        
     section.music {
         width: 66vw;

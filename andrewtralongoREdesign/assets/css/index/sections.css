@@ -56,7 +56,8 @@ section.reverb p {
 
 section.photography {
     height: 66vh;
-    margin-top, margin-bottom: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
     background-color: green;
     display: flex;
     align-items: center;
@@ -64,6 +65,7 @@ section.photography {
     background: url("../../images/index/photography.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 section.photography.title {
@@ -76,7 +78,7 @@ section.photography.title {
 }
 
 section.containerMusicBlog {
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: row;

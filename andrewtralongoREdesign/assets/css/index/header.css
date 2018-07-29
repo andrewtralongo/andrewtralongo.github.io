@@ -24,6 +24,7 @@ header.logoLine {
 }
 
 header.logo img {
-    height: 15px;
+    width: 3vw;
+    min-width: 35px;
     margin-left: 10px;
 }
