@@ -28,16 +28,26 @@ h4 {
     font-size: 2vh;
 }
 
+p {
+    font-family: "HelveticaNeue-Mediud", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 500;
+    font-size: 2vh;
+}
+
 a {
     font-family: "Courier New", Courier, monospace;
     text-decoration: underline;
     font-size: 2vw;
 }
 a:hover{
+    color: white;
     background-color: #0000ff;
     font-style: italic;
 }
 
 .txtColWhite {
     color: #ffffff;
+}
+.txtColBlack {
+    color: #000000;
 }

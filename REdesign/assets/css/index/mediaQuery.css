@@ -16,26 +16,39 @@
         width: 75vw;
         margin-left: 25vw;
     }
+    
+    section.design.title {
+        height: 50%;
+        width: 75%;
+    }
        
-    section.reverb {height: 125vh}
+    section.reverb {
+        height: 125vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+       
+    section.reverbImg {width: 100%}
+       
+    section.photography{justify-content: center;}
+       
+    section.photography.title {margin:auto}
        
     section.containerMusicBlog {flex-direction: column}
        
-    section.music{
-        height: 50vh;
-        width: 75vw;
-        margin-left: 25vw;
+    section.music {
+        width: 66vw;
+        margin-left: 33vw;
         text-align: left;
     }
-    
-    section.blog{
-        height: 50vh;
-        width: 75vw;
-        margin-right: 25vw;
+ 
+    section.blog {
+        width: 66vw;
+        margin-right: 33vw;
         text-align: right;
     }
        
-    footer {
+    footer.social, footer.contact, footer.linkContainer {
         flex-direction: column;
     }
        
@@ -52,4 +65,6 @@
     }
        
     footer.social{margin-top: 5vh;}
+       
+    footer h4 {display: none}
 }

@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;   
+    padding: 0;
+}
+
+body {}
+
+.show {display: block}
+.hide {display: none}
+
+.colWhite {
+    background-color: #ffffff;
+}
+.colBlack {
+    background-color: #000000;
+}
