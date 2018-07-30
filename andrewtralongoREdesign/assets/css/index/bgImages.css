@@ -1,11 +1,11 @@
 .hero1 {
-    background: url("../../images/index/headerBg/hero1.jpg");
+    background: url("../../images/index/headerBg/desktop/desktopHero1.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hero2 {
-    background: url("../../images/index/headerBg/hero2.jpg");
+    background: url("../../images/index/headerBg/desktop/desktopHero2.JPG");
     background-repeat: no-repeat;
     background-size: cover;
 }

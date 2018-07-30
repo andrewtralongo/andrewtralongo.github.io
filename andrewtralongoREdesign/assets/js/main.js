@@ -1,4 +1,23 @@
 $(document).ready(function() {
+    
+    (function( $ ){
+        $.fn.fnLogoWhite = function() {
+        $('.logoBlack').addClass('hide');
+        $('.logoLine').addClass('colWhite');
+        $('.herotxt').addClass('txtColWhite');
+      return this;
+   }; 
+})( jQuery );
+    
+    (function( $ ){
+        $.fn.fnLogoBlack = function() {
+        $('.logoWhite').addClass('hide');
+        $('.logoLine').addClass('colBlack');
+        $('.herotxt').addClass('txtColBlack');
+      return this;
+   }; 
+})( jQuery );
+
 
     setTimeout(function () {
         
@@ -6,16 +25,12 @@ $(document).ready(function() {
         
         if (x == 1){
             $('.headerBg').addClass("hero1");
-            $('.logoBlack').addClass('hide');
-            $('.logoLine').addClass('colWhite');
-            $('.herotxt').addClass('txtColWhite');
+            $('#my_div').fnLogoBlack();
         }
         
         if (x == 2){
             $('.headerBg').addClass("hero2");
-            $('.logoWhite').addClass('hide');
-            $('.logoLine').addClass('colBlack');
-            $('.herotxt').addClass('txtColBlack');
+            $('#my_div').fnLogoWhite;
         }
         
     }, 0);
