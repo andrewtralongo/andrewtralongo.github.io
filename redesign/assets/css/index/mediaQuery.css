@@ -1,0 +1,78 @@
+@media only screen 
+   and (max-width : 375px) {
+       
+    /* -- TYPE -- */
+    
+    h1 {font-size: 14vw}
+       
+    h2{font-size: 10vw}
+       
+    a{font-size: 6vw}
+       
+       
+    /* -- SECTIONS -- */
+       
+    section.design{
+        width: 75vw;
+        margin-left: 25vw;
+        background-position: center;
+    }
+    
+    section.design.title {
+        height: 50%;
+        width: 75%;
+    }
+       
+    section.reverb {
+        height: 125vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+       
+    section.reverbImg {width: 100%}
+       
+    section.photography{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        justify-content: center;
+    }
+       
+    section.photography.title {margin:auto}
+       
+    section.containerMusicBlog {
+        flex-direction: column;
+        margin-bottom: 10vh;
+    }
+       
+    section.music {
+        width: 66vw;
+        margin-left: 33vw;
+        text-align: left;
+    }
+ 
+    section.blog {
+        width: 66vw;
+        margin-right: 33vw;
+        text-align: right;
+    }
+       
+    footer.social, footer.contact, footer.linkContainer {
+        flex-direction: column;
+    }
+       
+    footer h3{
+        width: auto;
+        height: 16%;
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    footer.linkContainer{
+        width:auto;    
+        justify-content: space-around;
+    }
+       
+    footer.social{margin-top: 5vh;}
+       
+    footer h4 {display: none}
+}

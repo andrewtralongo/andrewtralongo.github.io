@@ -1,0 +1,30 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header h1 {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+header.logo {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.logoLine {
+    width: 66vw;
+    height: 3px;
+}
+
+header.logo img {
+    width: 3vw;
+    min-width: 35px;
+    margin-left: 10px;
+}
