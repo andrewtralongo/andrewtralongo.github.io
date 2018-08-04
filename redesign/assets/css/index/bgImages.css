@@ -1,12 +1,96 @@
-.hero1 {
+.desktopHero1 {
     background: url("../../images/index/headerBg/desktop/desktopHero1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.hero2 {
+.desktopHero2 {
     background: url("../../images/index/headerBg/desktop/desktopHero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero3 {
+    background: url("../../images/index/headerBg/desktop/desktopHero3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.desktopHero4 {
+    background: url("../../images/index/headerBg/desktop/desktopHero4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero5 {
+    background: url("../../images/index/headerBg/desktop/desktopHero5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.desktopHero6 {
+    background: url("../../images/index/headerBg/desktop/desktopHero6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero7 {
+    background: url("../../images/index/headerBg/desktop/desktopHero7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero8 {
+    background: url("../../images/index/headerBg/desktop/desktopHero8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero9 {
+    background: url("../../images/index/headerBg/desktop/desktopHero9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.desktopHero10 {
+    background: url("../../images/index/headerBg/desktop/desktopHero10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktopHero11 {
+    background: url("../../images/index/headerBg/desktop/desktopHero11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.mobileHero1 {
+    background: url("../../images/index/headerBg/mobile/mobileHero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.mobileHero2 {
+    background: url("../../images/index/headerBg/mobile/mobileHero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mobileHero3 {
+    background: url("../../images/index/headerBg/mobile/mobileHero3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
