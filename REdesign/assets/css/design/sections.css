@@ -1,0 +1,174 @@
+section {
+    width: 100vw;
+}
+
+section.allure {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.allureImg {
+    height: 66vh;
+    width: 50vw;
+    
+    background: url("../../images/index/reverb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.allure.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 50px;
+}
+
+section.reverb {
+    height: 66vh;
+    margin-bottom: 15vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: url("../../images/index/photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+section.reverb.title {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    
+    background: none;
+}
+
+section.hardWogLife {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.hardWogLifeImg {
+    height: 40vh;
+    width: 50vw;
+    
+    background: url("../../images/index/reverb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.hardWogLife.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 50px;
+}
+
+section.iShare {
+    height: 66vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: url("../../images/index/photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+section.iShare.title {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    
+    background: none;
+}
+
+section.containerAdornmentUgh {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.adornment {
+    width: 40vw;
+    text-align: left;
+}
+section.adornment.title {padding-left: 20px}
+section.adornment img {width: 100%}
+
+section.ugh {
+    width: 40vw;
+    text-align: right;
+}
+section.ugh.title {padding-right: 20px}
+section.ugh img {width: 100%}
+
+section.topOfEurope {
+    height: 66vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: url("../../images/index/photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+section.topOfEurope.title {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    
+    background: none;
+}
+
+section.prevSite {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.prevSiteImg {
+    height: 50vh;
+    width: 50vw;
+    
+    background: url("../../images/index/reverb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.prevSite.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 50px;
+}

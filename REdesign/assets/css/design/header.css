@@ -1,0 +1,45 @@
+header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -- logo -- */
+
+header.logo {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.logoLine {
+    width: 50vw;
+    height: 3px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+header.logo img {
+    width: 3vw;
+    min-width: 35px;
+    margin-left: 10px;
+}
+
+/* -- hero -- */
+
+header.hero {
+    width: 50vw;
+    height: 50vw;
+    background: green;
+}
+
+header.text {
+    width: 50vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    justify-content: flex-end;
+}

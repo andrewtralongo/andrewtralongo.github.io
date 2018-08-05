@@ -1,7 +1,7 @@
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
               
     /* -- SECTIONS -- */
        
@@ -33,8 +33,10 @@
     section.photography.title {margin:auto}
        
     section.containerMusicBlog {
+        height: 110vh;
         flex-direction: column;
-        margin-bottom: 10vh;
+        margin-top: 20vh;
+        margin-bottom: 15vh;
     }
        
     section.music {
@@ -48,24 +50,9 @@
         margin-right: 33vw;
         text-align: right;
     }
-       
-    footer.social, footer.contact, footer.linkContainer {
-        flex-direction: column;
+      
+    section.about {
+        flex-direction: column;      
     }
-       
-    footer h3{
-        width: auto;
-        height: 16%;
-        font-size: 8vw;
-        text-align: center;
-    }
-    
-    footer.linkContainer{
-        width:auto;    
-        justify-content: space-around;
-    }
-       
-    footer.social{margin-top: 5vh;}
-       
-    footer h4 {display: none}
+        
 }

@@ -1,3 +1,15 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header h1 {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
 section {
     width: 100vw;
 }
@@ -5,12 +17,16 @@ section {
 section.location {
     height: 25vh;
     padding-left: 10px;
+    
+    position: relative;
+    z-index: 1;
 }
 
 section.design{
     height: 75vh;
     background-color: blue;
     position: relative;
+    z-index: 0;
     
     background: url("../../images/index/design.jpg");
     background-repeat: no-repeat;
@@ -40,6 +56,7 @@ section.reverbImg {
     background: url("../../images/index/reverb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 section.reverb.title {
@@ -75,6 +92,29 @@ section.photography.title {
     margin-left: 33vw;
     
     background: none;
+}
+
+section.about {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.about.profilePic {
+    height: 45vh;
+    width: 50%;
+    margin-right: 20px;
+}
+section.about.profilePic img {height: 100%;}
+
+section.about.text {
+    width: 40vw;
+    margin-left: 20px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 section.containerMusicBlog {

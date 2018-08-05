@@ -1,0 +1,64 @@
+@media only screen 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
+        
+    header.heroText {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header.hero {
+        width: 100vw;
+        margin-bottom: 20px;    
+    }
+    header.text {
+        width: 80vw;
+        padding: 0;
+    }
+              
+    /* -- SECTIONS -- */
+       
+    section.allure {
+        margin-top: 3vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }   
+    section.allureImg {width: 100vw}
+    section.allure.title {width: 100vw}
+       
+    section.reverb {margin-top: 15vh}
+        
+    section.hardWogLife {height: 65vh}
+       
+    section.containerAdornmentUgh {
+        height: 110vh;
+        flex-direction: column;
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+    }
+       
+    section.adornment {
+        width: 66vw;
+        margin-left: 33vw;
+        text-align: left;
+    }
+    section.adornment.title {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    section.ugh {
+        width: 66vw;
+        margin-right: 33vw;
+        text-align: right;
+    }
+        
+    section.prevSite {
+        margin-bottom: 10vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.prevSiteImg {width: 100vw}
+    section.prevSite.title {margin-top: 20px}
+}
