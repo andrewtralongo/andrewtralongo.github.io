@@ -82,29 +82,6 @@ section.photography.title {
     background: none;
 }
 
-section.about {
-    height: 65vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section.about.profilePic {
-    height: 45vh;
-    width: 50%;
-    margin-right: 20px;
-}
-section.about.profilePic img {height: 100%;}
-
-section.about.text {
-    width: 40vw;
-    margin-left: 20px;
-    text-align: left;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 section.containerMusicBlog {
     height: 100vh;
     width: 100vw;
@@ -125,3 +102,27 @@ section.blog {
     text-align: left;
 }
 section.blog img {width: 100%}
+
+section.about {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.about.profilePic {
+    height: 45vh;
+    width: 50%;
+    margin-right: 20px;
+}
+section.about.profilePic img {height: 100%;}
+
+section.about.text {
+    width: 40vw;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
