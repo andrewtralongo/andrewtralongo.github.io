@@ -38,6 +38,7 @@ header.hero {
     justify-content: flex-start;
     
     background: url("../../images/photography/hero.jpg");
+    background-color: #0000ff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;

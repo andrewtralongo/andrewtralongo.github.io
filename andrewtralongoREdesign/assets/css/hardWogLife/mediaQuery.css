@@ -1,0 +1,23 @@
+@media only screen 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
+    
+    /* -- HEADER -- */
+        
+    header h1 {
+        font-size: 11vw;
+        padding-left: 50px;
+        padding-right: 50px;
+    }   
+        
+    /* -- SECTIONS -- */
+       
+    section.desc {
+        width: 80vw;
+        margin-top: 20px;    
+    }
+        
+    section.featureImg {width: 100vw;}
+        
+}

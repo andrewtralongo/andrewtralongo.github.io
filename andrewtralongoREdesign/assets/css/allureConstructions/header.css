@@ -23,6 +23,7 @@ header.logo img {
     width: 100vw;
     height: 100vh;
     background: url("../../images/design/allureConstructions/allureConstructions_hero.jpg");
+    background-color: #0000ff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

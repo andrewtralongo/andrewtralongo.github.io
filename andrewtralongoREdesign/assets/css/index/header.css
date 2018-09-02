@@ -5,6 +5,7 @@ header {
 }
 
 header.headerBg {
+    background-color: #0000ff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
