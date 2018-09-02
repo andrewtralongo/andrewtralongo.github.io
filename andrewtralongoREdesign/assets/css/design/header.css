@@ -1,0 +1,49 @@
+header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header.heroImg {
+    width: 100vw;
+    height: 100vh;
+    
+    position: relative;
+    background: url("../../images/design/designngised_tile.gif");
+    background-repeat: repeat;
+    background-size: 250px 86px;
+}
+
+/* -- logo -- */
+
+header.logo {
+    height: 43px;
+    width: 100vw;
+    margin-top: 92px;
+    background: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.logoLine {
+    width: 50vw;
+    height: 3px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+header.logo img {
+    width: 3vw;
+    min-width: 35px;
+    margin-left: 10px;
+}
+
+header.titleContainer {
+    width: 100vw;
+    padding: 50px;
+}
+
+header.text {width: 60vw}

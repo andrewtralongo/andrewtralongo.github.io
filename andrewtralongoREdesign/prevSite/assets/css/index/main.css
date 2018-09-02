@@ -1,0 +1,96 @@
+body {
+    background: url(../../images/index/staticBG.gif) no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 2.5em;
+    color: #f5f3e4;
+}
+@media only screen and (max-width : 375px)
+{ h1 {
+    height: 100%;
+    flex-direction: column} }
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    color: #f5f3e4;
+}
+
+p {
+    font-family: "Proza Libre", sans-serif;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* --FLEX COLUMNS-- */
+
+.col1of2{flex: 0 0 50%}
+
+.col1of3{flex: 0 0 33.33%}
+
+.col2of3{flex: 0 0 66.66%}
+
+.col2of5{flex: 0 0 40%}
+
+.flexCent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --HEADER-- */
+
+.header {
+    position: relative;
+    width: 93%;
+    margin-left: 7%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+
+.name {
+    height: 75px;
+    width: 325px;
+    border: 2px solid #fff;
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+.name img {width: 40px}
+
+.contactD {
+    height: 50px;
+    width: 200px;
+    padding-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.contactD img{height: 25px;width: 25px}
+@media only screen and (max-width : 375px)
+{ .contactD {display: none}}
+
+.mainContainer {
+    height: calc(100vh - 175px);
+    width: 100%;
+    box-shadow: 0px -5px 10px #070707;
+    position: relative;
+    display: flex;
+}
+@media only screen and (max-width : 375px)
+{ .mainContainer {
+    height: 100%;
+    flex-direction: column} }

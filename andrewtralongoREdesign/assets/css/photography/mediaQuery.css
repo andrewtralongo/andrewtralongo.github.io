@@ -1,0 +1,33 @@
+@media only screen 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
+        
+    header.headContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header.hero {
+        width: 100vw;
+        height: 75vh;
+        background-position: center;
+    }
+    h1 {font-size: 12vw}
+    header.text {
+        width: 75vw;
+        margin-left: 20px;
+        padding: 0;
+    }
+    
+    .mobWrap {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+        
+    .col1of4 {flex: 0 0 100%}
+    .col1of3 {flex: 0 0 100%}
+        
+    .col1of2 {flex: 0 0 100%}
+    .col2of3 {flex: 0 0 100%}
+}

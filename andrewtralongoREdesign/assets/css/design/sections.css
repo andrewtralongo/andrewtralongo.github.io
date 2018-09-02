@@ -1,0 +1,216 @@
+section {
+    width: 100vw;
+}
+
+section.allure {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.allureImg {
+    height: 66vh;
+    width: 50vw;
+    
+    background: url("../../images/design/allureConstructions/allureConstructions_thumbnailSq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.allure.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 20px;
+}
+
+section.hardWogLife {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+section.hardWogLifeImg {
+    height: 66vh;
+    background: url("../../images/design/hardWogLife/slicerPhoto_thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.hardWogLife.title {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+section.reverb {
+    height: 90vh;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.reverbImg {
+    height: 60vh;
+    width: 50vw;
+    
+    background: url("../../images/design/reverb/g_thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.reverb.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 0;
+}
+
+section.iShare {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.iShareImg {
+    height: 60vh;
+    width: 50vw;
+    
+    background: url("../../images/design/iShare/iShare_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+section.iShare.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 20px;
+}
+
+section.adornment {
+    height: 60vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: url("../../images/design/adornment/tattoo_thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+section.adornment.title {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    text-align: center;
+    
+    background: none;
+}
+
+section.containerPortamiViaTopOfEurope {
+    height: auto;
+    width: 100vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section.portamiVia {
+    width: 40vw;
+    height: auto;
+    text-align: left;
+}
+section.portamiVia.title {padding-left: 20px}
+section.portamiVia img {width: 100%}
+
+section.topOfEurope {
+    width: 40vw;
+    height: auto;
+    text-align: right;
+}
+section.topOfEurope.title {padding-right: 20px}
+section.topOfEurope img {width: 100%}
+
+section.dayOfTheDead {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+section.dayOfTheDeadImg {
+    height: 66vh;
+    background: url("../../images/design/dayOfTheDead/dayOfTheDead_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.dayOfTheDead.title {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+section.ugh {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.ughImg {
+    height: 60vh;
+    width: 50vw;
+    
+    background: url("../../images/design/ugh/ugh_thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.ugh.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-right: 20px;
+}
+
+section.prevSite {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.prevSiteImg {
+    height: 50vh;
+    width: 50vw;
+    
+    background: url("../../images/design/prevSite/niceDifferentUnusual_thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+section.prevSite.title {
+    width: 50vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 20px;
+}

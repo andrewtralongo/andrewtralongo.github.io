@@ -1,0 +1,40 @@
+section.imgGallery {
+    height: auto;
+    display: flex;
+    flex: {0 0 100%}
+}
+
+.wrap {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imgGalleryStack {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.spacer {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1of2 {flex: 0 0 50%}
+.col1of4 {flex: 0 0 25%}
+.col1of3 {flex: 0 0 33.33%}
+.col2of3 {flex: 0 0 66.66%}
+
+.mT2 {margin-top: 2vh}
+.mB2 {margin-bottom: 2vh}
+
+.mT5 {margin-top: 5vh}
+.mB5 {margin-bottom: 5vh}

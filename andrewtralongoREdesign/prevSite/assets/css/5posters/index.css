@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background: peachpuff;
+}
+
+/*-- GRID --*/
+
+.grid.container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.grid-h.container{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    animation: grid-trans 3s infinite linear;
+}
+
+.grid-h{
+    height: 2%;
+    width: 100vw;
+    border-bottom: 2px solid;
+    border-color: peachpuff;
+    position: relative;
+}
+
+.grid-v.container{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    animation: grid-trans 3s infinite linear;
+}
+
+.grid-v{
+    height: 100vh;
+    width: 2%;
+    border-left: 2px solid;
+    border-color: peachpuff;
+    position: relative;
+    float: left;
+}
+
+/*-- TOP BG --*/
+
+.mani-type{
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #3e5d9b;
+}
+
+.mani-left{
+    position: absolute;
+    margin-top: 20vh;
+    left: 5%;
+}
+
+.mani-right{
+    position: absolute;
+    right: 5%;
+    bottom: 20vh;
+    text-align: right;
+}
+
+.title{
+    width: 95vw;
+    font-size: 7em;
+    text-align: right;
+    top: 5vh;
+    right: 0;
+    position: absolute;
+    padding-right: 3vw;
+    background: white;
+    color: peachpuff;
+}
+
+.author{
+    width: 95vw;
+    float: right;
+    padding-left: 3vw;
+    font-size: 5em;
+    position: absolute;
+    bottom: 5vh;
+    right: 0;
+    background: white;
+    color: peachpuff;
+}
+
+/*-- BOTTOM --*/
+
+.main.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #3e5d9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-desc{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.main-L {
+    width: 45%;
+    font-size: 1.1em;
+    color: rgb(230,230,230);
+}
+
+q {
+    font-size: 1.7em;
+    color: rgb(240,240,240);
+}
+
+.main-R {
+    width: 45%;
+    font-size: 1em;
+    color: rgb(240,240,240);
+}
+
+/*-- LINKS --*/
+
+.link-container {
+    width: 80vw;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.link{
+    width: auto;
+    font-size: 3em;
+    padding: 2%;
+    
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #fff;
+    border: 5px solid rgba(255, 218, 185, 0);
+}
+
+.link:hover{
+    border: 5px solid rgba(255, 218, 185, 1);
+    color: white;
+/*    font-style: italic;*/
+    text-decoration: underline;
+}
+
+/*-- ICONS --*/
+
+.linkicn-container {
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    bottom: 180px;
+    margin: auto;
+    display: flex;
+}
+
+.icnborder {
+    border: 5px solid rgba(255,218,185,0.5);
+}
+
+.navp1-container {
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    display: hidden;
+}
+.navp1-circle1 {
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.navp1-circle2 {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    transform: translateY(75px);
+    border-radius: 50%;
+    position: relative;
+}
+
+.navp1-circle3 {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    transform: translateY(75px);
+}
+
+.navp1-circle4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    transform: translateY(75px);
+}
+
+.navp2-container {
+    opacity: 0;
+    position: absolute;
+}
+
+.navp2-circleL {
+    position: relative;
+    height: 325px;
+    width: 650px;
+    border-top-left-radius: 375px;
+    border-top-right-radius: 375px;
+}
+
+.navp2-circleR {
+    position: relative;
+    height: 325px;
+    width: 650px;
+    border-bottom-left-radius: 375px;
+    border-bottom-right-radius: 375px;
+}
+
+.navp3-container {
+    opacity: 0;
+    position: absolute;
+    height: 650px;
+    width: 650px;
+}
+
+.navp3-box2 {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    transform: translateY(75px);
+    position: relative;
+}
+
+.navp3-box3 {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    transform: translateY(75px);
+    position: relative;
+}
+
+.navp3-box4 {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    transform: translateY(75px);
+    position: relative;
+}
+
+.navp4-container {
+    opacity: 0;
+    height: 650px;
+    width: 650px;
+    border-radius: 25%;
+}
+
+.navp5-container {
+    opacity: 0;
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navp5-boxL {
+    width: 30%;
+    height: 70%;
+}
+
+.navp5-boxR {
+    width: 30%;
+    height: 70%;
+}
+
+.linkicn-hover {
+    opacity: 1;
+}
+
+/*-- FOOTER --*/
+
+.footer {
+    opacity: 0.5;
+    transition: 0.5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+.footer:hover {opacity: 1}
+.footer img{width: 25px}
+
+/*---ANIMATIONS---*/
+
+@keyframes grid-trans {
+        to { transform: translate(2%, 2%);}
+      }
+

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    background: rgb(10,10,10);
+}
+
+a {
+    text-decoration: inherit; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: rgb(225,225,225);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+.mani.title {
+    margin: auto;
+}
+
+.mani.container {
+    width: 55vmin;
+    margin: auto;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    position: relative;
+}
+
+.mani.year {
+    display: inline-block;
+}
+
+.mani.column {
+    display: inline-block;
+    float: right;
+    margin-left: 5vw;
+    vertical-align: top;
+}
+
+
+/*-- BALLS --*/
+
+.ball.container {
+    height: 55vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.ball {
+    height: 19%;
+    width: 19%;
+    transition: all 1.5s;
+}
+
+/*-- ROW 1 --*/
+
+.rOne-trans {
+    border-radius: 45px;
+}
+
+.rOne-bg {
+    background: hsl(53, 100%, 51%);
+}
+
+/*-- ROW 2 --*/
+
+.rTwo-trans {
+    border-radius: 35px;
+}
+
+.rTwo-bg {
+    background: hsl(51, 100%, 51%);
+}
+
+/*-- ROW 3 --*/
+
+.rThree-trans {
+    border-radius: 25px;
+}
+
+.rThree-bg {
+    background: hsl(49, 100%, 51%);
+}
+
+/*-- ROW 4 --*/
+
+.rFour-trans {
+    border-radius: 15px;
+}
+
+.rFour-bg {
+    background: hsl(47, 100%, 51%);
+}
+
+/*-- ROW 5 --*/
+
+.rFive-trans {
+    border-radius: 7px;
+}
+
+.rFive-bg {
+    background: hsl(45, 100%, 51%);
+}
+
+/*-- FOOTER --*/
+
+.footer {color: #fff}

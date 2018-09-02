@@ -1,0 +1,68 @@
+@media only screen 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
+    
+    header.titleContainer {flex-direction: column}
+    header h1 {margin-bottom: 20px}
+    header.text {width: 80vw}
+              
+    /* -- SECTIONS -- */
+        
+    section.allure {
+        margin-top: 3vh;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }   
+    section.allureImg {width: 100vw}
+    section.allure.title {width: 100vw}
+       
+    section.hardWogLife {margin-top: 15vh}
+        
+    section.reverb {
+        height: 100vh;
+        margin-top: 0;
+    }
+    section.reverb.title {padding-left: 20px}
+        
+    section.iShare {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }   
+    section.iShareImg {width: 100vw}
+    section.iShare.title {width: 100vw}
+        
+    section.containerPortamiViaTopOfEurope {
+        height: 110vh;
+        flex-direction: column;
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+    }
+       
+    section.portamiVia {
+        width: 67vw;
+        margin-left: 33vw;
+        text-align: left;
+    }
+    section.portamiVia.title {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    section.topOfEurope {
+        width: 66vw;
+        margin-right: 33vw;
+        text-align: right;
+    }
+        
+    section.prevSite {
+        margin-bottom: 10vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.prevSiteImg {width: 100vw}
+    section.prevSite.title {
+        width: 100vw;
+        margin-top: 20px;
+    }
+}

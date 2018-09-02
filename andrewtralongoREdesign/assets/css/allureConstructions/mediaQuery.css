@@ -1,0 +1,28 @@
+@media only screen 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    { 
+    
+    /* -- HEADER -- */
+        
+    header h1 {
+        font-size: 11vw;
+        justify-content: center;
+        padding-left: 0;
+    }   
+    
+    .headerBg {
+        height: 80vh;
+        background-position: 57%;
+    }
+        
+    /* -- SECTIONS -- */
+       
+    section.desc {
+        width: 80vw;
+        margin-top: 20px;    
+    }
+        
+    section.featureImg {width: 100vw;}
+        
+}
